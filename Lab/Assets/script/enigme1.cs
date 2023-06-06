@@ -11,6 +11,7 @@ public class enigme1 : MonoBehaviour
     private bool p1 = false;
     private bool p2 = false;
     public Light l1;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -26,6 +27,7 @@ public class enigme1 : MonoBehaviour
 
         
     }
+
     public void SliderInput(float f)
     {
         slider = (int)(f * 100);
@@ -41,6 +43,7 @@ public class enigme1 : MonoBehaviour
             p1 = false;
         }
     }
+
     public void readStringInput(string s) 
     {
         input = s;
