@@ -24,14 +24,14 @@ public class enigme2 : MonoBehaviour
       public void strrrrrr(string str) 
     {
         Debug.Log(str);
-        if (str == "bravo")
+        if (str == "modal")
         {
-            Debug.Log("bien ouej");
+            //Debug.Log("bien ouej");
             p2 = true;
         }
         else
         {
-            Debug.Log(" pas bien ouej");
+            //Debug.Log(" pas bien ouej");
             p2 = false;
         }
     }
