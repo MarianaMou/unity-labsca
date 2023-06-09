@@ -40,9 +40,22 @@ public class Hybrid8Test : MonoBehaviour
     private int BiosignalspluxSoloPID = 532;
     private int MaxLedIntensity = 255;
 
+
+    public int distanceMin = 10;
+    public int compteurDistance = 0;
+    public int seuil = 600;
+    public int compteurPic = 0;
+    public List<int> lesPics;
+    public List<int> lesTemps;
+    public int freq;
+    public bool ajoutPic = false;
+    public int moyen10RR = 10;
+    public bool stresser = false;
+
     // Start is called before the first frame update
     private void Start()
     {
+        CreerText("");
         // Initialise object
         pluxDevManager = new PluxDeviceManager(ScanResults, ConnectionDone, AcquisitionStarted, OnDataReceived, OnEventDetected, OnExceptionRaised);
 
@@ -53,6 +66,24 @@ public class Hybrid8Test : MonoBehaviour
     // Update function, being constantly invoked by Unity.
     private void Update()
     { }
+
+    void CreerText(string contenu)
+    {
+        string chemin = Application.dataPath + "/Log.txt";
+
+        //est ce que ce fichier existe deja? si il exite pas alors on le créer
+        if (!File.Exists(chemin))
+        {
+            File.WriteAllText(chemin, "Bitalino \n\n");
+        }
+
+        //ajouter du contenu
+        if (contenu != "")
+        {
+            File.AppendAllText(chemin, contenu);
+        }
+
+    }
 
     // Method invoked when the application was closed.
     private void OnApplicationQuit()
@@ -112,7 +143,7 @@ public class Hybrid8Test : MonoBehaviour
     public void StartButtonFunction()
     {
         // Get the Sampling Rate and Resolution values.
-        samplingRate = int.Parse(SamplingRateDropdown.options[SamplingRateDropdown.value].text);
+        samplingRate = 100;
         int resolution = int.Parse(ResolutionDropdown.options[ResolutionDropdown.value].text);
 
         // Initializing the sources array.
@@ -208,7 +239,7 @@ public class Hybrid8Test : MonoBehaviour
         {
             // Starting a real-time acquisition from:
             // >>> BITalino [Channels A2 and A5 active]
-            pluxDevManager.StartAcquisitionUnity(samplingRate, new List<int> { 2, 5 }, 10);
+            pluxDevManager.StartAcquisitionUnity(samplingRate, new List<int> { 2 }, 10);
         }
         else
         {
@@ -222,6 +253,7 @@ public class Hybrid8Test : MonoBehaviour
     {
         // Stop the real-time acquisition.
         pluxDevManager.StopAcquisitionUnity();
+
 
         // Enable the "Start Acquisition" button and disable the "Stop Acquisition" button.
         StartAcqButton.interactable = true;
@@ -341,6 +373,7 @@ public class Hybrid8Test : MonoBehaviour
     public void OnDataReceived(int nSeq, int[] data)
     {
         // Show samples with a 1s interval.
+        //Debug.Log("lenseq: " + nSeq + "sampling: " + samplingRate+ "nSeq % samplingRate le modulo "+ nSeq % samplingRate);
         if (nSeq % samplingRate == 0)
         {
             // Show the current package of data.
@@ -348,11 +381,100 @@ public class Hybrid8Test : MonoBehaviour
             for (int j = 0; j < data.Length; j++)
             {
                 outputString += data[j] + "\t";
+                //    Debug.Log("le data j : "+data[j]);
             }
+
 
             // Show the values in the GUI.
             OutputMsgText.text = outputString;
         }
+
+
+
+
+        // donnée enregistre + ajouter ds log avec detection de pic
+        for (int j = 0; j < data.Length; j++)
+        {
+            // detecte les pics suppéreieur au seuil
+            //Debug.Log("compteurDsit (>10): " + compteurDistance+"cont de tem : "+ lesTemps.Count);
+            if (data[j] > seuil && compteurDistance > distanceMin)
+
+            {
+                CreerText(data[j] + " pic \n");
+                //ajouter les pics les 6 dernières sercondes + les temps ou les pic on été trouvée
+                // si un pic apparait au dela de 6 sec d'intervalle on enlève ce pic dans lesPics et le temps corespondand ds lesTemps .
+                if (lesTemps.Count > 0 && lesPics.Count > 0)
+                {
+                    // temps pour calculer la fréquence
+                    while (nSeq - lesTemps[0] > 6000)
+                    {
+                        lesPics.RemoveAt(0);
+                        lesTemps.RemoveAt(0);
+                    }
+                    lesPics.Add(data[j]);
+                    lesTemps.Add(nSeq);
+
+                }
+                else
+                {
+                    lesPics.Add(data[j]);
+                    lesTemps.Add(nSeq);
+                }
+                compteurPic += 1;
+                compteurDistance = 0;
+                ajoutPic = true;
+            }
+            else
+            {
+                CreerText(data[j] + "\n");
+                compteurDistance += 1;
+            }
+
+        }
+        // calcul freq cardiaque il faut au moin 1 seconde pour avoir une fréquence cardaique
+        // methode pour calculer la moyenne de fréquenc cadiaque
+        if (ajoutPic && lesPics.Count > 0 && nSeq > 100)
+        {
+            for (int t = 0; t < lesTemps.Count; t++)
+            {
+                //Debug.Log("temps: " + t + ": " + lesTemps[t] + "freq: " + freq);
+                if (t > 0)
+                {
+                    freq += lesTemps[t] - lesTemps[t - 1];
+
+                }
+                // les 10 dernières freéquences cardiaques
+                if (lesTemps.Count > 10 && t >= (lesTemps.Count - 10))
+                {
+                    moyen10RR += lesTemps[t] - lesTemps[t - 1];
+                    // Debug.Log(lesTemps.Count - t);
+                }
+            }
+            //on regarde le temps pour actuel en sec
+            float tempsActuel = (nSeq / samplingRate);
+            //Debug.Log("temps actuel: " + tempsActuel+"le round : "+ ((int)Math.Round(tempsActuel)));
+            //produit en coix: x pic en y sec --> combien de pic/battemennt pour 60sec
+            //(60*x pic)/y sec
+            if (tempsActuel > 60)
+            {
+                tempsActuel = 60;
+            }
+            Debug.Log("pic par temps: " + (lesPics.Count * 60 / ((int)Math.Round(tempsActuel))) + "nbr de pic : " + lesPics.Count + " -- moyen des variabilité des rythme cartiaque : " + freq / lesTemps.Count + " la moyen v r-r 10s : " + moyen10RR / 10 + " --nseq actuel :  " + nSeq);
+            if ((moyen10RR / 10)>80)
+            {
+                stresser = true;
+            }
+            else
+            {
+                stresser = false;
+            }
+            ajoutPic = false;
+            freq = 0;
+            moyen10RR = 0;
+        }
+
+
+
     }
 
     // Callback that receives the events raised from the PLUX devices that are streaming real-time data.

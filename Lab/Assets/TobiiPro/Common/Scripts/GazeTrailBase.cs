@@ -92,11 +92,15 @@ namespace Tobii.Research.Unity
         }
         //a moi
         public Camera j2;
-        private float tempsRegardExit;
-        private float tempsRegard;
+        private float tempsRegardExit=0;
+        private float tempsRegard=0;
         public  Slider progressMonitor;
         private bool monitorView = false;
+        private int enigmeActuel = 7;
         public GameObject exitMonitor;
+        public GameObject[] enigmesSortie;
+        public Slider[] sliderEnigmes;
+        public Slider[] ExitSliderEnigmes;
         public Slider progessExitMonitor;
 
         private bool _lastOn;
@@ -160,6 +164,7 @@ namespace Tobii.Research.Unity
             // Reset the flag when no longer calibrating.
             _removeParticlesWhileCalibrating = true;
 
+
             if (HasEyeTracker && _on)
             {
                 Ray ray;
@@ -169,47 +174,152 @@ namespace Tobii.Research.Unity
                     RaycastHit hit;
                     if (Physics.Raycast(ray, out hit))
                     {
-                        if (!monitorView)
-                        {
-                            exitMonitor.transform.localScale = new Vector3(0f, 0f, 0f);
-                        }
                         PlaceParticle(hit.point, _color, _particleSize);
                         _latestHitObject = hit.transform;
-                        //Debug.Log("gazeRarilCase je touche"+_latestHitObject);
-                        if (_latestHitObject.name == "Monitor"&&!monitorView)
+                        //Debug.Log(_latestHitObject.name);
+                        // etat de base
+                        if (!monitorView && enigmeActuel==7)
                         {
+                            exitMonitor.transform.localScale = new Vector3(0f, 0f, 0f);
+                            progressMonitor.transform.localScale = new Vector3(0f,0f,0f);
 
-                            tempsRegard += Time.deltaTime;
-                            progressMonitor.transform.localScale = new Vector3(0.8f, 0.8f, 0f);
-                            progressMonitor.value = tempsRegard;
-                            Debug.Log("temps à regader le moniteur"+tempsRegard+"max"+ progressMonitor.maxValue);
-                            if (tempsRegard >= progressMonitor.maxValue)
+                            //il regarde le moniteur
+                            if (_latestHitObject.name == "Monitor")
                             {
-                                j2.transform.localEulerAngles = new Vector3(17f, 37f, 0f);
-                                j2.fieldOfView = 50f;
-                                monitorView = true;
-                                exitMonitor.transform.localScale = new Vector3(0.75f, 1.1f, 0.1f);
+
+                                progressMonitor.transform.localScale = new Vector3(0.8f, 0.8f, 0f);
+                                progressMonitor.value += Time.deltaTime;
+                                //Debug.Log("temps à regader le moniteur" + progressMonitor.value+ "max" + progressMonitor.maxValue);
+
+                                //change de vue : vue moniteur
+                                if (progressMonitor.value >= progressMonitor.maxValue)
+                                {
+                                    j2.transform.localEulerAngles = new Vector3(17f, 37f, 0f);
+                                    j2.fieldOfView = 50f;
+                                    monitorView = true;
+                                    exitMonitor.transform.localScale = new Vector3(0.75f, 1.1f, 0.1f);
+                                    progressMonitor.transform.localScale = new Vector3(0f,0f,0f);
+                                }
+
+                                for(int e=0; e<sliderEnigmes.Length; e++)
+                                {
+                                    sliderEnigmes[e].value = 0;
+                                    ExitSliderEnigmes[e].value = 0;
+                                    sliderEnigmes[e].transform.localScale = new Vector3(0f, 0f, 0f);
+                                }
+
+
                             }
-                            
-                            
-                        }
-                        if (_latestHitObject.name == "ExitMonitor"&&monitorView)
-                        {
-                            tempsRegardExit += Time.deltaTime;
-                            progessExitMonitor.value = tempsRegardExit;
-                            if (tempsRegardExit >= progessExitMonitor.maxValue)
+                            //il regarde page 1
+                            if (_latestHitObject.name == "PageE1")
                             {
-                                j2.transform.localEulerAngles = new Vector3(17f, 0f, 0f);
-                                j2.fieldOfView = 70f;
-                                monitorView = false;
+                                Enigma(0, new Vector3(-1.1f, 0.2f, -3.25f));
+                               // sliderEnigmes[0].value += Time.deltaTime;
+                               /* if (sliderEnigmes[0].value>=sliderEnigmes[0].maxValue)
+                                {
+                                    j2.transform.localPosition = new Vector3(-1.2f, 0.2f, -3.25f);
+                                    j2.transform.rotation = Quaternion.Euler(67f, 0.1f, 0f); //   Rotate(new Vector3(67f, 0.1f, 0f),20f*Time.deltaTime);
+                                    enigmesSortie[0].transform.localPosition = new Vector3(1f, 1f, 0f);
+                                    j2.fieldOfView = 35f;
+                                    enigmeActuel = 1;
+                                    monitorView = false;
+                                }*/
                                 
                             }
+                            if (_latestHitObject.name == "PageE2")
+                            {
+                                Enigma(1, new Vector3(-0.4f, 0.2f, -3.35f));
+                                /*sliderEnigmes[1].value += Time.deltaTime;
+
+                                    j2.transform.localPosition = new Vector3(-0.66f, 0.3f, -3.43f);
+                                j2.transform.rotation = Quaternion.Euler(67f, 0.1f, 0f); //   Rotate(new Vector3(67f, 0.1f, 0f),20f*Time.deltaTime);
+                                j2.fieldOfView = 35f;
+                                monitorView = false;*/
+
+
+                            }
+                            if (_latestHitObject.name == "PageE3")
+                            {
+                                Enigma(2, new Vector3(0.3f, 0.2f, -2.75f));
+                                /*sliderEnigmes[2].value += Time.deltaTime;
+                                j2.transform.localPosition = new Vector3(-0.24f, 0.3f, -3.15f);
+                                j2.transform.rotation = Quaternion.Euler(67f, 0.1f, 0f); //   Rotate(new Vector3(67f, 0.1f, 0f),20f*Time.deltaTime);
+                                j2.fieldOfView = 35f;
+                                monitorView = false;*/
+                            }
+                            if (_latestHitObject.name == "PageE4")
+                            {
+                                Enigma(3, new Vector3(0.87f, 0.2f, -3.5f));
+                                /*sliderEnigmes[3].value += Time.deltaTime;
+                                j2.transform.localPosition = new Vector3(0.2f, 0.3f, -3.5f);
+                                j2.transform.rotation = Quaternion.Euler(67f, 0.1f, 0f); //   Rotate(new Vector3(67f, 0.1f, 0f),20f*Time.deltaTime);
+                                j2.fieldOfView = 35f;
+                                monitorView = false;*/
+                            }
+                            if (_latestHitObject.name == "PageE5")
+                            {
+                                Enigma(4, new Vector3(0.2f, 0.2f, -3.73f));
+                                /*sliderEnigmes[4].value += Time.deltaTime;
+                                j2.transform.localPosition = new Vector3(-0.2f, 0.3f, -3.73f);
+                                j2.transform.rotation = Quaternion.Euler(67f, 0.1f, 0f); //   Rotate(new Vector3(67f, 0.1f, 0f),20f*Time.deltaTime);
+                                j2.fieldOfView = 35f;
+                                monitorView = false;*/
+                            }
+                            if (_latestHitObject.name == "PageE6")
+                            {
+                                Enigma(5, new Vector3(-0.33f, 0.2f, -2.75f));
+                                /*sliderEnigmes[5].value += Time.deltaTime;
+                                j2.transform.localPosition = new Vector3(-0.7f, 0.3f, -2.85f);
+                                j2.transform.rotation = Quaternion.Euler(67f, 0.1f, 0f); //   Rotate(new Vector3(67f, 0.1f, 0f),20f*Time.deltaTime);
+                                j2.fieldOfView = 35f;
+                                monitorView = false;*/
+                            }
+                            if(_latestHitObject.name== "bureau_j2" || _latestHitObject.name == "Keyboard" || _latestHitObject.name == "Mouse" || _latestHitObject.name == "Plane_j2" || _latestHitObject.name == "Book1" || _latestHitObject.name == "Bookk2" || _latestHitObject.name == "Scroll" || _latestHitObject.name == "MurA" || _latestHitObject.name == "MurB" || _latestHitObject.name == "MurC" || _latestHitObject.name == "plateau")
+                            {
+                                
+                                progressMonitor.value = 0f;
+                                for(int e=0; e<sliderEnigmes.Length; e++)
+                                {
+                                    sliderEnigmes[e].value = 0;
+                                    sliderEnigmes[e].transform.localScale = new Vector3(0f, 0f, 0f);
+                                }
+                            }
 
                         }
-                        if (_latestHitObject.name == "Monitor" && monitorView)
+                        //je suis en vue moniteur
+                        else if (monitorView)
                         {
-                            tempsRegardExit = 0f;
+                            if (_latestHitObject.name == "ExitMonitor")
+                            {
+                                tempsRegardExit += Time.deltaTime;
+                                progessExitMonitor.value = tempsRegardExit;
+                                if (tempsRegardExit >= progessExitMonitor.maxValue)
+                                {
+                                    j2.transform.localEulerAngles = new Vector3(17f, 0f, 0f);
+                                    j2.fieldOfView = 70f;
+                                    monitorView = false;
+
+                                }
+
+                            }
+                            else
+                            {
+                                tempsRegardExit = 0f;
+                                progessExitMonitor.value = 0f;
+                            }
+                            tempsRegard = 0f;
                         }
+                        // je regarde une enigme
+                        else if (enigmeActuel<7)
+                        {
+                            sortieEnigme();
+                            
+                        }
+                       
+                        //Debug.Log("gazeRarilCase je touche"+_latestHitObject);
+                       
+                        
+                       
                     }
                     else
                     {
@@ -218,6 +328,43 @@ namespace Tobii.Research.Unity
                         tempsRegard = 0f;
                         tempsRegardExit = 0f;
                     }
+                }
+            }
+        }
+
+        public void Enigma(int e, Vector3 pos)
+        {
+            if (enigmeActuel==7){
+                sliderEnigmes[e].transform.localScale = new Vector3(0.001f, 0.001f, 0f);
+                sliderEnigmes[e].value += Time.deltaTime;
+            }
+
+            if (sliderEnigmes[e].value >= sliderEnigmes[e].maxValue)
+            {
+                j2.transform.localPosition = pos;
+                j2.transform.rotation = Quaternion.Euler(67f, 0.1f, 0f); //   Rotate(new Vector3(67f, 0.1f, 0f),20f*Time.deltaTime);
+                enigmesSortie[e].transform.localPosition = new Vector3(1f, 1f, 0f);
+                j2.fieldOfView = 50f;
+                enigmeActuel = e;
+                monitorView = false;
+            }
+
+        }
+        public void sortieEnigme()
+        {
+            sliderEnigmes[enigmeActuel].transform.localScale = new Vector3(0f, 0f, 0f);
+            if (_latestHitObject.name == "ExitE"+(enigmeActuel+1).ToString())
+            {
+                ExitSliderEnigmes[enigmeActuel].value += Time.deltaTime;
+                if (ExitSliderEnigmes[enigmeActuel].value >= ExitSliderEnigmes[enigmeActuel].maxValue)
+                {
+                    //Debug.Log("je suis sortie?");
+                    j2.transform.localEulerAngles = new Vector3(17f, 0f, 0f);
+                    j2.transform.localPosition = new Vector3(0.1f, 0.45f, -4.5f);
+                    enigmesSortie[enigmeActuel].transform.localPosition = new Vector3(1f, -10f, 0f);
+                    ExitSliderEnigmes[enigmeActuel].value = 0;
+                    j2.fieldOfView = 70f;
+                    enigmeActuel = 7;
                 }
             }
         }

@@ -1,0 +1,1018 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data>
+  <GazeData TimeStamp="1079602717172">
+    <Left>
+      <GazeOriginInTrackBoxCoordinates Value="(NaN, NaN, NaN)" Valid="False" />
+      <GazeOriginInUserCoordinates Value="(NaN, NaN, NaN)" Valid="False" />
+      <GazePointInUserCoordinates Value="(NaN, NaN, NaN)" Valid="False" />
+      <GazePointOnDisplayArea Value="(NaN, NaN)" Valid="False" />
+      <GazeRayScreen Origin="(0.00000000, 0.00000000, 0.00000000)" Direction="(0.00000000, 0.00000000, 0.00000000)" Valid="False" />
+      <PupilDiameter Value="NaN" Valid="False" />
+    </Left>
+    <Right>
+      <GazeOriginInTrackBoxCoordinates Value="(NaN, NaN, NaN)" Valid="False" />
+      <GazeOriginInUserCoordinates Value="(NaN, NaN, NaN)" Valid="False" />
+      <GazePointInUserCoordinates Value="(NaN, NaN, NaN)" Valid="False" />
+      <GazePointOnDisplayArea Value="(NaN, NaN)" Valid="False" />
+      <GazeRayScreen Origin="(0.00000000, 0.00000000, 0.00000000)" Direction="(0.00000000, 0.00000000, 0.00000000)" Valid="False" />
+      <PupilDiameter Value="NaN" Valid="False" />
+    </Right>
+    <CombinedGazeRayScreen Origin="(0.00000000, 0.00000000, 0.00000000)" Direction="(0.00000000, 0.00000000, 0.00000000)" Valid="False" />
+    <OriginalGaze DeviceTimeStamp="27786913923" SystemTimeStamp="1079602717172">
+      <LeftEye>
+        <GazeOrigin PositionInTrackBoxCoordinates="(NaN, NaN, NaN)" Validity="Invalid" />
+        <GazeOrigin PositionInUserCoordinates="(NaN, NaN, NaN)" Validity="Invalid" />
+        <GazePoint PositionInUserCoordinates="(NaN, NaN, NaN)" Validity="Invalid" />
+        <GazePoint PositionOnDisplayArea="(NaN, NaN)" Validity="Invalid" />
+        <Pupil PupilDiameter="NaN" Validity="Invalid" />
+      </LeftEye>
+      <RightEye>
+        <GazeOrigin PositionInTrackBoxCoordinates="(NaN, NaN, NaN)" Validity="Invalid" />
+        <GazeOrigin PositionInUserCoordinates="(NaN, NaN, NaN)" Validity="Invalid" />
+        <GazePoint PositionInUserCoordinates="(NaN, NaN, NaN)" Validity="Invalid" />
+        <GazePoint PositionOnDisplayArea="(NaN, NaN)" Validity="Invalid" />
+        <Pupil PupilDiameter="NaN" Validity="Invalid" />
+      </RightEye>
+    </OriginalGaze>
+  </GazeData>
+  <GazeData TimeStamp="1079602733826">
+    <Left>
+      <GazeOriginInTrackBoxCoordinates Value="(NaN, NaN, NaN)" Valid="False" />
+      <GazeOriginInUserCoordinates Value="(NaN, NaN, NaN)" Valid="False" />
+      <GazePointInUserCoordinates Value="(NaN, NaN, NaN)" Valid="False" />
+      <GazePointOnDisplayArea Value="(NaN, NaN)" Valid="False" />
+      <GazeRayScreen Origin="(0.00000000, 0.00000000, 0.00000000)" Direction="(0.00000000, 0.00000000, 0.00000000)" Valid="False" />
+      <PupilDiameter Value="NaN" Valid="False" />
+    </Left>
+    <Right>
+      <GazeOriginInTrackBoxCoordinates Value="(NaN, NaN, NaN)" Valid="False" />
+      <GazeOriginInUserCoordinates Value="(NaN, NaN, NaN)" Valid="False" />
+      <GazePointInUserCoordinates Value="(NaN, NaN, NaN)" Valid="False" />
+      <GazePointOnDisplayArea Value="(NaN, NaN)" Valid="False" />
+      <GazeRayScreen Origin="(0.00000000, 0.00000000, 0.00000000)" Direction="(0.00000000, 0.00000000, 0.00000000)" Valid="False" />
+      <PupilDiameter Value="NaN" Valid="False" />
+    </Right>
+    <CombinedGazeRayScreen Origin="(0.00000000, 0.00000000, 0.00000000)" Direction="(0.00000000, 0.00000000, 0.00000000)" Valid="False" />
+    <OriginalGaze DeviceTimeStamp="27786930577" SystemTimeStamp="1079602733826">
+      <LeftEye>
+        <GazeOrigin PositionInTrackBoxCoordinates="(NaN, NaN, NaN)" Validity="Invalid" />
+        <GazeOrigin PositionInUserCoordinates="(NaN, NaN, NaN)" Validity="Invalid" />
+        <GazePoint PositionInUserCoordinates="(NaN, NaN, NaN)" Validity="Invalid" />
+        <GazePoint PositionOnDisplayArea="(NaN, NaN)" Validity="Invalid" />
+        <Pupil PupilDiameter="NaN" Validity="Invalid" />
+      </LeftEye>
+      <RightEye>
+        <GazeOrigin PositionInTrackBoxCoordinates="(NaN, NaN, NaN)" Validity="Invalid" />
+        <GazeOrigin PositionInUserCoordinates="(NaN, NaN, NaN)" Validity="Invalid" />
+        <GazePoint PositionInUserCoordinates="(NaN, NaN, NaN)" Validity="Invalid" />
+        <GazePoint PositionOnDisplayArea="(NaN, NaN)" Validity="Invalid" />
+        <Pupil PupilDiameter="NaN" Validity="Invalid" />
+      </RightEye>
+    </OriginalGaze>
+  </GazeData>
+  <GazeData TimeStamp="1079602750480">
+    <Left>
+      <GazeOriginInTrackBoxCoordinates Value="(NaN, NaN, NaN)" Valid="False" />
+      <GazeOriginInUserCoordinates Value="(NaN, NaN, NaN)" Valid="False" />
+      <GazePointInUserCoordinates Value="(NaN, NaN, NaN)" Valid="False" />
+      <GazePointOnDisplayArea Value="(NaN, NaN)" Valid="False" />
+      <GazeRayScreen Origin="(0.00000000, 0.00000000, 0.00000000)" Direction="(0.00000000, 0.00000000, 0.00000000)" Valid="False" />
+      <PupilDiameter Value="NaN" Valid="False" />
+    </Left>
+    <Right>
+      <GazeOriginInTrackBoxCoordinates Value="(NaN, NaN, NaN)" Valid="False" />
+      <GazeOriginInUserCoordinates Value="(NaN, NaN, NaN)" Valid="False" />
+      <GazePointInUserCoordinates Value="(NaN, NaN, NaN)" Valid="False" />
+      <GazePointOnDisplayArea Value="(NaN, NaN)" Valid="False" />
+      <GazeRayScreen Origin="(0.00000000, 0.00000000, 0.00000000)" Direction="(0.00000000, 0.00000000, 0.00000000)" Valid="False" />
+      <PupilDiameter Value="NaN" Valid="False" />
+    </Right>
+    <CombinedGazeRayScreen Origin="(0.00000000, 0.00000000, 0.00000000)" Direction="(0.00000000, 0.00000000, 0.00000000)" Valid="False" />
+    <OriginalGaze DeviceTimeStamp="27786947232" SystemTimeStamp="1079602750480">
+      <LeftEye>
+        <GazeOrigin PositionInTrackBoxCoordinates="(NaN, NaN, NaN)" Validity="Invalid" />
+        <GazeOrigin PositionInUserCoordinates="(NaN, NaN, NaN)" Validity="Invalid" />
+        <GazePoint PositionInUserCoordinates="(NaN, NaN, NaN)" Validity="Invalid" />
+        <GazePoint PositionOnDisplayArea="(NaN, NaN)" Validity="Invalid" />
+        <Pupil PupilDiameter="NaN" Validity="Invalid" />
+      </LeftEye>
+      <RightEye>
+        <GazeOrigin PositionInTrackBoxCoordinates="(NaN, NaN, NaN)" Validity="Invalid" />
+        <GazeOrigin PositionInUserCoordinates="(NaN, NaN, NaN)" Validity="Invalid" />
+        <GazePoint PositionInUserCoordinates="(NaN, NaN, NaN)" Validity="Invalid" />
+        <GazePoint PositionOnDisplayArea="(NaN, NaN)" Validity="Invalid" />
+        <Pupil PupilDiameter="NaN" Validity="Invalid" />
+      </RightEye>
+    </OriginalGaze>
+  </GazeData>
+  <GazeData TimeStamp="1079602767135">
+    <Left>
+      <GazeOriginInTrackBoxCoordinates Value="(NaN, NaN, NaN)" Valid="False" />
+      <GazeOriginInUserCoordinates Value="(NaN, NaN, NaN)" Valid="False" />
+      <GazePointInUserCoordinates Value="(NaN, NaN, NaN)" Valid="False" />
+      <GazePointOnDisplayArea Value="(NaN, NaN)" Valid="False" />
+      <GazeRayScreen Origin="(0.00000000, 0.00000000, 0.00000000)" Direction="(0.00000000, 0.00000000, 0.00000000)" Valid="False" />
+      <PupilDiameter Value="NaN" Valid="False" />
+    </Left>
+    <Right>
+      <GazeOriginInTrackBoxCoordinates Value="(NaN, NaN, NaN)" Valid="False" />
+      <GazeOriginInUserCoordinates Value="(NaN, NaN, NaN)" Valid="False" />
+      <GazePointInUserCoordinates Value="(NaN, NaN, NaN)" Valid="False" />
+      <GazePointOnDisplayArea Value="(NaN, NaN)" Valid="False" />
+      <GazeRayScreen Origin="(0.00000000, 0.00000000, 0.00000000)" Direction="(0.00000000, 0.00000000, 0.00000000)" Valid="False" />
+      <PupilDiameter Value="NaN" Valid="False" />
+    </Right>
+    <CombinedGazeRayScreen Origin="(0.00000000, 0.00000000, 0.00000000)" Direction="(0.00000000, 0.00000000, 0.00000000)" Valid="False" />
+    <OriginalGaze DeviceTimeStamp="27786963887" SystemTimeStamp="1079602767135">
+      <LeftEye>
+        <GazeOrigin PositionInTrackBoxCoordinates="(NaN, NaN, NaN)" Validity="Invalid" />
+        <GazeOrigin PositionInUserCoordinates="(NaN, NaN, NaN)" Validity="Invalid" />
+        <GazePoint PositionInUserCoordinates="(NaN, NaN, NaN)" Validity="Invalid" />
+        <GazePoint PositionOnDisplayArea="(NaN, NaN)" Validity="Invalid" />
+        <Pupil PupilDiameter="NaN" Validity="Invalid" />
+      </LeftEye>
+      <RightEye>
+        <GazeOrigin PositionInTrackBoxCoordinates="(NaN, NaN, NaN)" Validity="Invalid" />
+        <GazeOrigin PositionInUserCoordinates="(NaN, NaN, NaN)" Validity="Invalid" />
+        <GazePoint PositionInUserCoordinates="(NaN, NaN, NaN)" Validity="Invalid" />
+        <GazePoint PositionOnDisplayArea="(NaN, NaN)" Validity="Invalid" />
+        <Pupil PupilDiameter="NaN" Validity="Invalid" />
+      </RightEye>
+    </OriginalGaze>
+  </GazeData>
+  <GazeData TimeStamp="1079602783789">
+    <Left>
+      <GazeOriginInTrackBoxCoordinates Value="(NaN, NaN, NaN)" Valid="False" />
+      <GazeOriginInUserCoordinates Value="(NaN, NaN, NaN)" Valid="False" />
+      <GazePointInUserCoordinates Value="(NaN, NaN, NaN)" Valid="False" />
+      <GazePointOnDisplayArea Value="(NaN, NaN)" Valid="False" />
+      <GazeRayScreen Origin="(0.00000000, 0.00000000, 0.00000000)" Direction="(0.00000000, 0.00000000, 0.00000000)" Valid="False" />
+      <PupilDiameter Value="NaN" Valid="False" />
+    </Left>
+    <Right>
+      <GazeOriginInTrackBoxCoordinates Value="(NaN, NaN, NaN)" Valid="False" />
+      <GazeOriginInUserCoordinates Value="(NaN, NaN, NaN)" Valid="False" />
+      <GazePointInUserCoordinates Value="(NaN, NaN, NaN)" Valid="False" />
+      <GazePointOnDisplayArea Value="(NaN, NaN)" Valid="False" />
+      <GazeRayScreen Origin="(0.00000000, 0.00000000, 0.00000000)" Direction="(0.00000000, 0.00000000, 0.00000000)" Valid="False" />
+      <PupilDiameter Value="NaN" Valid="False" />
+    </Right>
+    <CombinedGazeRayScreen Origin="(0.00000000, 0.00000000, 0.00000000)" Direction="(0.00000000, 0.00000000, 0.00000000)" Valid="False" />
+    <OriginalGaze DeviceTimeStamp="27786980541" SystemTimeStamp="1079602783789">
+      <LeftEye>
+        <GazeOrigin PositionInTrackBoxCoordinates="(NaN, NaN, NaN)" Validity="Invalid" />
+        <GazeOrigin PositionInUserCoordinates="(NaN, NaN, NaN)" Validity="Invalid" />
+        <GazePoint PositionInUserCoordinates="(NaN, NaN, NaN)" Validity="Invalid" />
+        <GazePoint PositionOnDisplayArea="(NaN, NaN)" Validity="Invalid" />
+        <Pupil PupilDiameter="NaN" Validity="Invalid" />
+      </LeftEye>
+      <RightEye>
+        <GazeOrigin PositionInTrackBoxCoordinates="(NaN, NaN, NaN)" Validity="Invalid" />
+        <GazeOrigin PositionInUserCoordinates="(NaN, NaN, NaN)" Validity="Invalid" />
+        <GazePoint PositionInUserCoordinates="(NaN, NaN, NaN)" Validity="Invalid" />
+        <GazePoint PositionOnDisplayArea="(NaN, NaN)" Validity="Invalid" />
+        <Pupil PupilDiameter="NaN" Validity="Invalid" />
+      </RightEye>
+    </OriginalGaze>
+  </GazeData>
+  <GazeData TimeStamp="1079602800443">
+    <Left>
+      <GazeOriginInTrackBoxCoordinates Value="(NaN, NaN, NaN)" Valid="False" />
+      <GazeOriginInUserCoordinates Value="(NaN, NaN, NaN)" Valid="False" />
+      <GazePointInUserCoordinates Value="(NaN, NaN, NaN)" Valid="False" />
+      <GazePointOnDisplayArea Value="(NaN, NaN)" Valid="False" />
+      <GazeRayScreen Origin="(0.00000000, 0.00000000, 0.00000000)" Direction="(0.00000000, 0.00000000, 0.00000000)" Valid="False" />
+      <PupilDiameter Value="NaN" Valid="False" />
+    </Left>
+    <Right>
+      <GazeOriginInTrackBoxCoordinates Value="(NaN, NaN, NaN)" Valid="False" />
+      <GazeOriginInUserCoordinates Value="(NaN, NaN, NaN)" Valid="False" />
+      <GazePointInUserCoordinates Value="(NaN, NaN, NaN)" Valid="False" />
+      <GazePointOnDisplayArea Value="(NaN, NaN)" Valid="False" />
+      <GazeRayScreen Origin="(0.00000000, 0.00000000, 0.00000000)" Direction="(0.00000000, 0.00000000, 0.00000000)" Valid="False" />
+      <PupilDiameter Value="NaN" Valid="False" />
+    </Right>
+    <CombinedGazeRayScreen Origin="(0.00000000, 0.00000000, 0.00000000)" Direction="(0.00000000, 0.00000000, 0.00000000)" Valid="False" />
+    <OriginalGaze DeviceTimeStamp="27786997196" SystemTimeStamp="1079602800443">
+      <LeftEye>
+        <GazeOrigin PositionInTrackBoxCoordinates="(NaN, NaN, NaN)" Validity="Invalid" />
+        <GazeOrigin PositionInUserCoordinates="(NaN, NaN, NaN)" Validity="Invalid" />
+        <GazePoint PositionInUserCoordinates="(NaN, NaN, NaN)" Validity="Invalid" />
+        <GazePoint PositionOnDisplayArea="(NaN, NaN)" Validity="Invalid" />
+        <Pupil PupilDiameter="NaN" Validity="Invalid" />
+      </LeftEye>
+      <RightEye>
+        <GazeOrigin PositionInTrackBoxCoordinates="(NaN, NaN, NaN)" Validity="Invalid" />
+        <GazeOrigin PositionInUserCoordinates="(NaN, NaN, NaN)" Validity="Invalid" />
+        <GazePoint PositionInUserCoordinates="(NaN, NaN, NaN)" Validity="Invalid" />
+        <GazePoint PositionOnDisplayArea="(NaN, NaN)" Validity="Invalid" />
+        <Pupil PupilDiameter="NaN" Validity="Invalid" />
+      </RightEye>
+    </OriginalGaze>
+  </GazeData>
+  <GazeData TimeStamp="1079602817098">
+    <Left>
+      <GazeOriginInTrackBoxCoordinates Value="(NaN, NaN, NaN)" Valid="False" />
+      <GazeOriginInUserCoordinates Value="(NaN, NaN, NaN)" Valid="False" />
+      <GazePointInUserCoordinates Value="(NaN, NaN, NaN)" Valid="False" />
+      <GazePointOnDisplayArea Value="(NaN, NaN)" Valid="False" />
+      <GazeRayScreen Origin="(0.00000000, 0.00000000, 0.00000000)" Direction="(0.00000000, 0.00000000, 0.00000000)" Valid="False" />
+      <PupilDiameter Value="NaN" Valid="False" />
+    </Left>
+    <Right>
+      <GazeOriginInTrackBoxCoordinates Value="(NaN, NaN, NaN)" Valid="False" />
+      <GazeOriginInUserCoordinates Value="(NaN, NaN, NaN)" Valid="False" />
+      <GazePointInUserCoordinates Value="(NaN, NaN, NaN)" Valid="False" />
+      <GazePointOnDisplayArea Value="(NaN, NaN)" Valid="False" />
+      <GazeRayScreen Origin="(0.00000000, 0.00000000, 0.00000000)" Direction="(0.00000000, 0.00000000, 0.00000000)" Valid="False" />
+      <PupilDiameter Value="NaN" Valid="False" />
+    </Right>
+    <CombinedGazeRayScreen Origin="(0.00000000, 0.00000000, 0.00000000)" Direction="(0.00000000, 0.00000000, 0.00000000)" Valid="False" />
+    <OriginalGaze DeviceTimeStamp="27787013851" SystemTimeStamp="1079602817098">
+      <LeftEye>
+        <GazeOrigin PositionInTrackBoxCoordinates="(NaN, NaN, NaN)" Validity="Invalid" />
+        <GazeOrigin PositionInUserCoordinates="(NaN, NaN, NaN)" Validity="Invalid" />
+        <GazePoint PositionInUserCoordinates="(NaN, NaN, NaN)" Validity="Invalid" />
+        <GazePoint PositionOnDisplayArea="(NaN, NaN)" Validity="Invalid" />
+        <Pupil PupilDiameter="NaN" Validity="Invalid" />
+      </LeftEye>
+      <RightEye>
+        <GazeOrigin PositionInTrackBoxCoordinates="(NaN, NaN, NaN)" Validity="Invalid" />
+        <GazeOrigin PositionInUserCoordinates="(NaN, NaN, NaN)" Validity="Invalid" />
+        <GazePoint PositionInUserCoordinates="(NaN, NaN, NaN)" Validity="Invalid" />
+        <GazePoint PositionOnDisplayArea="(NaN, NaN)" Validity="Invalid" />
+        <Pupil PupilDiameter="NaN" Validity="Invalid" />
+      </RightEye>
+    </OriginalGaze>
+  </GazeData>
+  <GazeData TimeStamp="1079602833752">
+    <Left>
+      <GazeOriginInTrackBoxCoordinates Value="(NaN, NaN, NaN)" Valid="False" />
+      <GazeOriginInUserCoordinates Value="(NaN, NaN, NaN)" Valid="False" />
+      <GazePointInUserCoordinates Value="(NaN, NaN, NaN)" Valid="False" />
+      <GazePointOnDisplayArea Value="(NaN, NaN)" Valid="False" />
+      <GazeRayScreen Origin="(0.00000000, 0.00000000, 0.00000000)" Direction="(0.00000000, 0.00000000, 0.00000000)" Valid="False" />
+      <PupilDiameter Value="NaN" Valid="False" />
+    </Left>
+    <Right>
+      <GazeOriginInTrackBoxCoordinates Value="(NaN, NaN, NaN)" Valid="False" />
+      <GazeOriginInUserCoordinates Value="(NaN, NaN, NaN)" Valid="False" />
+      <GazePointInUserCoordinates Value="(NaN, NaN, NaN)" Valid="False" />
+      <GazePointOnDisplayArea Value="(NaN, NaN)" Valid="False" />
+      <GazeRayScreen Origin="(0.00000000, 0.00000000, 0.00000000)" Direction="(0.00000000, 0.00000000, 0.00000000)" Valid="False" />
+      <PupilDiameter Value="NaN" Valid="False" />
+    </Right>
+    <CombinedGazeRayScreen Origin="(0.00000000, 0.00000000, 0.00000000)" Direction="(0.00000000, 0.00000000, 0.00000000)" Valid="False" />
+    <OriginalGaze DeviceTimeStamp="27787030505" SystemTimeStamp="1079602833752">
+      <LeftEye>
+        <GazeOrigin PositionInTrackBoxCoordinates="(NaN, NaN, NaN)" Validity="Invalid" />
+        <GazeOrigin PositionInUserCoordinates="(NaN, NaN, NaN)" Validity="Invalid" />
+        <GazePoint PositionInUserCoordinates="(NaN, NaN, NaN)" Validity="Invalid" />
+        <GazePoint PositionOnDisplayArea="(NaN, NaN)" Validity="Invalid" />
+        <Pupil PupilDiameter="NaN" Validity="Invalid" />
+      </LeftEye>
+      <RightEye>
+        <GazeOrigin PositionInTrackBoxCoordinates="(NaN, NaN, NaN)" Validity="Invalid" />
+        <GazeOrigin PositionInUserCoordinates="(NaN, NaN, NaN)" Validity="Invalid" />
+        <GazePoint PositionInUserCoordinates="(NaN, NaN, NaN)" Validity="Invalid" />
+        <GazePoint PositionOnDisplayArea="(NaN, NaN)" Validity="Invalid" />
+        <Pupil PupilDiameter="NaN" Validity="Invalid" />
+      </RightEye>
+    </OriginalGaze>
+  </GazeData>
+  <GazeData TimeStamp="1079602850406">
+    <Left>
+      <GazeOriginInTrackBoxCoordinates Value="(NaN, NaN, NaN)" Valid="False" />
+      <GazeOriginInUserCoordinates Value="(NaN, NaN, NaN)" Valid="False" />
+      <GazePointInUserCoordinates Value="(NaN, NaN, NaN)" Valid="False" />
+      <GazePointOnDisplayArea Value="(NaN, NaN)" Valid="False" />
+      <GazeRayScreen Origin="(0.00000000, 0.00000000, 0.00000000)" Direction="(0.00000000, 0.00000000, 0.00000000)" Valid="False" />
+      <PupilDiameter Value="NaN" Valid="False" />
+    </Left>
+    <Right>
+      <GazeOriginInTrackBoxCoordinates Value="(NaN, NaN, NaN)" Valid="False" />
+      <GazeOriginInUserCoordinates Value="(NaN, NaN, NaN)" Valid="False" />
+      <GazePointInUserCoordinates Value="(NaN, NaN, NaN)" Valid="False" />
+      <GazePointOnDisplayArea Value="(NaN, NaN)" Valid="False" />
+      <GazeRayScreen Origin="(0.00000000, 0.00000000, 0.00000000)" Direction="(0.00000000, 0.00000000, 0.00000000)" Valid="False" />
+      <PupilDiameter Value="NaN" Valid="False" />
+    </Right>
+    <CombinedGazeRayScreen Origin="(0.00000000, 0.00000000, 0.00000000)" Direction="(0.00000000, 0.00000000, 0.00000000)" Valid="False" />
+    <OriginalGaze DeviceTimeStamp="27787047160" SystemTimeStamp="1079602850406">
+      <LeftEye>
+        <GazeOrigin PositionInTrackBoxCoordinates="(NaN, NaN, NaN)" Validity="Invalid" />
+        <GazeOrigin PositionInUserCoordinates="(NaN, NaN, NaN)" Validity="Invalid" />
+        <GazePoint PositionInUserCoordinates="(NaN, NaN, NaN)" Validity="Invalid" />
+        <GazePoint PositionOnDisplayArea="(NaN, NaN)" Validity="Invalid" />
+        <Pupil PupilDiameter="NaN" Validity="Invalid" />
+      </LeftEye>
+      <RightEye>
+        <GazeOrigin PositionInTrackBoxCoordinates="(NaN, NaN, NaN)" Validity="Invalid" />
+        <GazeOrigin PositionInUserCoordinates="(NaN, NaN, NaN)" Validity="Invalid" />
+        <GazePoint PositionInUserCoordinates="(NaN, NaN, NaN)" Validity="Invalid" />
+        <GazePoint PositionOnDisplayArea="(NaN, NaN)" Validity="Invalid" />
+        <Pupil PupilDiameter="NaN" Validity="Invalid" />
+      </RightEye>
+    </OriginalGaze>
+  </GazeData>
+  <GazeData TimeStamp="1079602867061">
+    <Left>
+      <GazeOriginInTrackBoxCoordinates Value="(NaN, NaN, NaN)" Valid="False" />
+      <GazeOriginInUserCoordinates Value="(NaN, NaN, NaN)" Valid="False" />
+      <GazePointInUserCoordinates Value="(NaN, NaN, NaN)" Valid="False" />
+      <GazePointOnDisplayArea Value="(NaN, NaN)" Valid="False" />
+      <GazeRayScreen Origin="(0.00000000, 0.00000000, 0.00000000)" Direction="(0.00000000, 0.00000000, 0.00000000)" Valid="False" />
+      <PupilDiameter Value="NaN" Valid="False" />
+    </Left>
+    <Right>
+      <GazeOriginInTrackBoxCoordinates Value="(NaN, NaN, NaN)" Valid="False" />
+      <GazeOriginInUserCoordinates Value="(NaN, NaN, NaN)" Valid="False" />
+      <GazePointInUserCoordinates Value="(NaN, NaN, NaN)" Valid="False" />
+      <GazePointOnDisplayArea Value="(NaN, NaN)" Valid="False" />
+      <GazeRayScreen Origin="(0.00000000, 0.00000000, 0.00000000)" Direction="(0.00000000, 0.00000000, 0.00000000)" Valid="False" />
+      <PupilDiameter Value="NaN" Valid="False" />
+    </Right>
+    <CombinedGazeRayScreen Origin="(0.00000000, 0.00000000, 0.00000000)" Direction="(0.00000000, 0.00000000, 0.00000000)" Valid="False" />
+    <OriginalGaze DeviceTimeStamp="27787063815" SystemTimeStamp="1079602867061">
+      <LeftEye>
+        <GazeOrigin PositionInTrackBoxCoordinates="(NaN, NaN, NaN)" Validity="Invalid" />
+        <GazeOrigin PositionInUserCoordinates="(NaN, NaN, NaN)" Validity="Invalid" />
+        <GazePoint PositionInUserCoordinates="(NaN, NaN, NaN)" Validity="Invalid" />
+        <GazePoint PositionOnDisplayArea="(NaN, NaN)" Validity="Invalid" />
+        <Pupil PupilDiameter="NaN" Validity="Invalid" />
+      </LeftEye>
+      <RightEye>
+        <GazeOrigin PositionInTrackBoxCoordinates="(NaN, NaN, NaN)" Validity="Invalid" />
+        <GazeOrigin PositionInUserCoordinates="(NaN, NaN, NaN)" Validity="Invalid" />
+        <GazePoint PositionInUserCoordinates="(NaN, NaN, NaN)" Validity="Invalid" />
+        <GazePoint PositionOnDisplayArea="(NaN, NaN)" Validity="Invalid" />
+        <Pupil PupilDiameter="NaN" Validity="Invalid" />
+      </RightEye>
+    </OriginalGaze>
+  </GazeData>
+  <GazeData TimeStamp="1079602883715">
+    <Left>
+      <GazeOriginInTrackBoxCoordinates Value="(NaN, NaN, NaN)" Valid="False" />
+      <GazeOriginInUserCoordinates Value="(NaN, NaN, NaN)" Valid="False" />
+      <GazePointInUserCoordinates Value="(NaN, NaN, NaN)" Valid="False" />
+      <GazePointOnDisplayArea Value="(NaN, NaN)" Valid="False" />
+      <GazeRayScreen Origin="(0.00000000, 0.00000000, 0.00000000)" Direction="(0.00000000, 0.00000000, 0.00000000)" Valid="False" />
+      <PupilDiameter Value="NaN" Valid="False" />
+    </Left>
+    <Right>
+      <GazeOriginInTrackBoxCoordinates Value="(NaN, NaN, NaN)" Valid="False" />
+      <GazeOriginInUserCoordinates Value="(NaN, NaN, NaN)" Valid="False" />
+      <GazePointInUserCoordinates Value="(NaN, NaN, NaN)" Valid="False" />
+      <GazePointOnDisplayArea Value="(NaN, NaN)" Valid="False" />
+      <GazeRayScreen Origin="(0.00000000, 0.00000000, 0.00000000)" Direction="(0.00000000, 0.00000000, 0.00000000)" Valid="False" />
+      <PupilDiameter Value="NaN" Valid="False" />
+    </Right>
+    <CombinedGazeRayScreen Origin="(0.00000000, 0.00000000, 0.00000000)" Direction="(0.00000000, 0.00000000, 0.00000000)" Valid="False" />
+    <OriginalGaze DeviceTimeStamp="27787080469" SystemTimeStamp="1079602883715">
+      <LeftEye>
+        <GazeOrigin PositionInTrackBoxCoordinates="(NaN, NaN, NaN)" Validity="Invalid" />
+        <GazeOrigin PositionInUserCoordinates="(NaN, NaN, NaN)" Validity="Invalid" />
+        <GazePoint PositionInUserCoordinates="(NaN, NaN, NaN)" Validity="Invalid" />
+        <GazePoint PositionOnDisplayArea="(NaN, NaN)" Validity="Invalid" />
+        <Pupil PupilDiameter="NaN" Validity="Invalid" />
+      </LeftEye>
+      <RightEye>
+        <GazeOrigin PositionInTrackBoxCoordinates="(NaN, NaN, NaN)" Validity="Invalid" />
+        <GazeOrigin PositionInUserCoordinates="(NaN, NaN, NaN)" Validity="Invalid" />
+        <GazePoint PositionInUserCoordinates="(NaN, NaN, NaN)" Validity="Invalid" />
+        <GazePoint PositionOnDisplayArea="(NaN, NaN)" Validity="Invalid" />
+        <Pupil PupilDiameter="NaN" Validity="Invalid" />
+      </RightEye>
+    </OriginalGaze>
+  </GazeData>
+  <GazeData TimeStamp="1079602900370">
+    <Left>
+      <GazeOriginInTrackBoxCoordinates Value="(NaN, NaN, NaN)" Valid="False" />
+      <GazeOriginInUserCoordinates Value="(NaN, NaN, NaN)" Valid="False" />
+      <GazePointInUserCoordinates Value="(NaN, NaN, NaN)" Valid="False" />
+      <GazePointOnDisplayArea Value="(NaN, NaN)" Valid="False" />
+      <GazeRayScreen Origin="(0.00000000, 0.00000000, 0.00000000)" Direction="(0.00000000, 0.00000000, 0.00000000)" Valid="False" />
+      <PupilDiameter Value="NaN" Valid="False" />
+    </Left>
+    <Right>
+      <GazeOriginInTrackBoxCoordinates Value="(NaN, NaN, NaN)" Valid="False" />
+      <GazeOriginInUserCoordinates Value="(NaN, NaN, NaN)" Valid="False" />
+      <GazePointInUserCoordinates Value="(NaN, NaN, NaN)" Valid="False" />
+      <GazePointOnDisplayArea Value="(NaN, NaN)" Valid="False" />
+      <GazeRayScreen Origin="(0.00000000, 0.00000000, 0.00000000)" Direction="(0.00000000, 0.00000000, 0.00000000)" Valid="False" />
+      <PupilDiameter Value="NaN" Valid="False" />
+    </Right>
+    <CombinedGazeRayScreen Origin="(0.00000000, 0.00000000, 0.00000000)" Direction="(0.00000000, 0.00000000, 0.00000000)" Valid="False" />
+    <OriginalGaze DeviceTimeStamp="27787097124" SystemTimeStamp="1079602900370">
+      <LeftEye>
+        <GazeOrigin PositionInTrackBoxCoordinates="(NaN, NaN, NaN)" Validity="Invalid" />
+        <GazeOrigin PositionInUserCoordinates="(NaN, NaN, NaN)" Validity="Invalid" />
+        <GazePoint PositionInUserCoordinates="(NaN, NaN, NaN)" Validity="Invalid" />
+        <GazePoint PositionOnDisplayArea="(NaN, NaN)" Validity="Invalid" />
+        <Pupil PupilDiameter="NaN" Validity="Invalid" />
+      </LeftEye>
+      <RightEye>
+        <GazeOrigin PositionInTrackBoxCoordinates="(NaN, NaN, NaN)" Validity="Invalid" />
+        <GazeOrigin PositionInUserCoordinates="(NaN, NaN, NaN)" Validity="Invalid" />
+        <GazePoint PositionInUserCoordinates="(NaN, NaN, NaN)" Validity="Invalid" />
+        <GazePoint PositionOnDisplayArea="(NaN, NaN)" Validity="Invalid" />
+        <Pupil PupilDiameter="NaN" Validity="Invalid" />
+      </RightEye>
+    </OriginalGaze>
+  </GazeData>
+  <GazeData TimeStamp="1079602917024">
+    <Left>
+      <GazeOriginInTrackBoxCoordinates Value="(NaN, NaN, NaN)" Valid="False" />
+      <GazeOriginInUserCoordinates Value="(NaN, NaN, NaN)" Valid="False" />
+      <GazePointInUserCoordinates Value="(NaN, NaN, NaN)" Valid="False" />
+      <GazePointOnDisplayArea Value="(NaN, NaN)" Valid="False" />
+      <GazeRayScreen Origin="(0.00000000, 0.00000000, 0.00000000)" Direction="(0.00000000, 0.00000000, 0.00000000)" Valid="False" />
+      <PupilDiameter Value="NaN" Valid="False" />
+    </Left>
+    <Right>
+      <GazeOriginInTrackBoxCoordinates Value="(NaN, NaN, NaN)" Valid="False" />
+      <GazeOriginInUserCoordinates Value="(NaN, NaN, NaN)" Valid="False" />
+      <GazePointInUserCoordinates Value="(NaN, NaN, NaN)" Valid="False" />
+      <GazePointOnDisplayArea Value="(NaN, NaN)" Valid="False" />
+      <GazeRayScreen Origin="(0.00000000, 0.00000000, 0.00000000)" Direction="(0.00000000, 0.00000000, 0.00000000)" Valid="False" />
+      <PupilDiameter Value="NaN" Valid="False" />
+    </Right>
+    <CombinedGazeRayScreen Origin="(0.00000000, 0.00000000, 0.00000000)" Direction="(0.00000000, 0.00000000, 0.00000000)" Valid="False" />
+    <OriginalGaze DeviceTimeStamp="27787113779" SystemTimeStamp="1079602917024">
+      <LeftEye>
+        <GazeOrigin PositionInTrackBoxCoordinates="(NaN, NaN, NaN)" Validity="Invalid" />
+        <GazeOrigin PositionInUserCoordinates="(NaN, NaN, NaN)" Validity="Invalid" />
+        <GazePoint PositionInUserCoordinates="(NaN, NaN, NaN)" Validity="Invalid" />
+        <GazePoint PositionOnDisplayArea="(NaN, NaN)" Validity="Invalid" />
+        <Pupil PupilDiameter="NaN" Validity="Invalid" />
+      </LeftEye>
+      <RightEye>
+        <GazeOrigin PositionInTrackBoxCoordinates="(NaN, NaN, NaN)" Validity="Invalid" />
+        <GazeOrigin PositionInUserCoordinates="(NaN, NaN, NaN)" Validity="Invalid" />
+        <GazePoint PositionInUserCoordinates="(NaN, NaN, NaN)" Validity="Invalid" />
+        <GazePoint PositionOnDisplayArea="(NaN, NaN)" Validity="Invalid" />
+        <Pupil PupilDiameter="NaN" Validity="Invalid" />
+      </RightEye>
+    </OriginalGaze>
+  </GazeData>
+  <GazeData TimeStamp="1079602933679">
+    <Left>
+      <GazeOriginInTrackBoxCoordinates Value="(NaN, NaN, NaN)" Valid="False" />
+      <GazeOriginInUserCoordinates Value="(NaN, NaN, NaN)" Valid="False" />
+      <GazePointInUserCoordinates Value="(NaN, NaN, NaN)" Valid="False" />
+      <GazePointOnDisplayArea Value="(NaN, NaN)" Valid="False" />
+      <GazeRayScreen Origin="(0.00000000, 0.00000000, 0.00000000)" Direction="(0.00000000, 0.00000000, 0.00000000)" Valid="False" />
+      <PupilDiameter Value="NaN" Valid="False" />
+    </Left>
+    <Right>
+      <GazeOriginInTrackBoxCoordinates Value="(NaN, NaN, NaN)" Valid="False" />
+      <GazeOriginInUserCoordinates Value="(NaN, NaN, NaN)" Valid="False" />
+      <GazePointInUserCoordinates Value="(NaN, NaN, NaN)" Valid="False" />
+      <GazePointOnDisplayArea Value="(NaN, NaN)" Valid="False" />
+      <GazeRayScreen Origin="(0.00000000, 0.00000000, 0.00000000)" Direction="(0.00000000, 0.00000000, 0.00000000)" Valid="False" />
+      <PupilDiameter Value="NaN" Valid="False" />
+    </Right>
+    <CombinedGazeRayScreen Origin="(0.00000000, 0.00000000, 0.00000000)" Direction="(0.00000000, 0.00000000, 0.00000000)" Valid="False" />
+    <OriginalGaze DeviceTimeStamp="27787130434" SystemTimeStamp="1079602933679">
+      <LeftEye>
+        <GazeOrigin PositionInTrackBoxCoordinates="(NaN, NaN, NaN)" Validity="Invalid" />
+        <GazeOrigin PositionInUserCoordinates="(NaN, NaN, NaN)" Validity="Invalid" />
+        <GazePoint PositionInUserCoordinates="(NaN, NaN, NaN)" Validity="Invalid" />
+        <GazePoint PositionOnDisplayArea="(NaN, NaN)" Validity="Invalid" />
+        <Pupil PupilDiameter="NaN" Validity="Invalid" />
+      </LeftEye>
+      <RightEye>
+        <GazeOrigin PositionInTrackBoxCoordinates="(NaN, NaN, NaN)" Validity="Invalid" />
+        <GazeOrigin PositionInUserCoordinates="(NaN, NaN, NaN)" Validity="Invalid" />
+        <GazePoint PositionInUserCoordinates="(NaN, NaN, NaN)" Validity="Invalid" />
+        <GazePoint PositionOnDisplayArea="(NaN, NaN)" Validity="Invalid" />
+        <Pupil PupilDiameter="NaN" Validity="Invalid" />
+      </RightEye>
+    </OriginalGaze>
+  </GazeData>
+  <GazeData TimeStamp="1079602950333">
+    <Left>
+      <GazeOriginInTrackBoxCoordinates Value="(NaN, NaN, NaN)" Valid="False" />
+      <GazeOriginInUserCoordinates Value="(NaN, NaN, NaN)" Valid="False" />
+      <GazePointInUserCoordinates Value="(NaN, NaN, NaN)" Valid="False" />
+      <GazePointOnDisplayArea Value="(NaN, NaN)" Valid="False" />
+      <GazeRayScreen Origin="(0.00000000, 0.00000000, 0.00000000)" Direction="(0.00000000, 0.00000000, 0.00000000)" Valid="False" />
+      <PupilDiameter Value="NaN" Valid="False" />
+    </Left>
+    <Right>
+      <GazeOriginInTrackBoxCoordinates Value="(NaN, NaN, NaN)" Valid="False" />
+      <GazeOriginInUserCoordinates Value="(NaN, NaN, NaN)" Valid="False" />
+      <GazePointInUserCoordinates Value="(NaN, NaN, NaN)" Valid="False" />
+      <GazePointOnDisplayArea Value="(NaN, NaN)" Valid="False" />
+      <GazeRayScreen Origin="(0.00000000, 0.00000000, 0.00000000)" Direction="(0.00000000, 0.00000000, 0.00000000)" Valid="False" />
+      <PupilDiameter Value="NaN" Valid="False" />
+    </Right>
+    <CombinedGazeRayScreen Origin="(0.00000000, 0.00000000, 0.00000000)" Direction="(0.00000000, 0.00000000, 0.00000000)" Valid="False" />
+    <OriginalGaze DeviceTimeStamp="27787147088" SystemTimeStamp="1079602950333">
+      <LeftEye>
+        <GazeOrigin PositionInTrackBoxCoordinates="(NaN, NaN, NaN)" Validity="Invalid" />
+        <GazeOrigin PositionInUserCoordinates="(NaN, NaN, NaN)" Validity="Invalid" />
+        <GazePoint PositionInUserCoordinates="(NaN, NaN, NaN)" Validity="Invalid" />
+        <GazePoint PositionOnDisplayArea="(NaN, NaN)" Validity="Invalid" />
+        <Pupil PupilDiameter="NaN" Validity="Invalid" />
+      </LeftEye>
+      <RightEye>
+        <GazeOrigin PositionInTrackBoxCoordinates="(NaN, NaN, NaN)" Validity="Invalid" />
+        <GazeOrigin PositionInUserCoordinates="(NaN, NaN, NaN)" Validity="Invalid" />
+        <GazePoint PositionInUserCoordinates="(NaN, NaN, NaN)" Validity="Invalid" />
+        <GazePoint PositionOnDisplayArea="(NaN, NaN)" Validity="Invalid" />
+        <Pupil PupilDiameter="NaN" Validity="Invalid" />
+      </RightEye>
+    </OriginalGaze>
+  </GazeData>
+  <GazeData TimeStamp="1079602966987">
+    <Left>
+      <GazeOriginInTrackBoxCoordinates Value="(NaN, NaN, NaN)" Valid="False" />
+      <GazeOriginInUserCoordinates Value="(NaN, NaN, NaN)" Valid="False" />
+      <GazePointInUserCoordinates Value="(NaN, NaN, NaN)" Valid="False" />
+      <GazePointOnDisplayArea Value="(NaN, NaN)" Valid="False" />
+      <GazeRayScreen Origin="(0.00000000, 0.00000000, 0.00000000)" Direction="(0.00000000, 0.00000000, 0.00000000)" Valid="False" />
+      <PupilDiameter Value="NaN" Valid="False" />
+    </Left>
+    <Right>
+      <GazeOriginInTrackBoxCoordinates Value="(NaN, NaN, NaN)" Valid="False" />
+      <GazeOriginInUserCoordinates Value="(NaN, NaN, NaN)" Valid="False" />
+      <GazePointInUserCoordinates Value="(NaN, NaN, NaN)" Valid="False" />
+      <GazePointOnDisplayArea Value="(NaN, NaN)" Valid="False" />
+      <GazeRayScreen Origin="(0.00000000, 0.00000000, 0.00000000)" Direction="(0.00000000, 0.00000000, 0.00000000)" Valid="False" />
+      <PupilDiameter Value="NaN" Valid="False" />
+    </Right>
+    <CombinedGazeRayScreen Origin="(0.00000000, 0.00000000, 0.00000000)" Direction="(0.00000000, 0.00000000, 0.00000000)" Valid="False" />
+    <OriginalGaze DeviceTimeStamp="27787163743" SystemTimeStamp="1079602966987">
+      <LeftEye>
+        <GazeOrigin PositionInTrackBoxCoordinates="(NaN, NaN, NaN)" Validity="Invalid" />
+        <GazeOrigin PositionInUserCoordinates="(NaN, NaN, NaN)" Validity="Invalid" />
+        <GazePoint PositionInUserCoordinates="(NaN, NaN, NaN)" Validity="Invalid" />
+        <GazePoint PositionOnDisplayArea="(NaN, NaN)" Validity="Invalid" />
+        <Pupil PupilDiameter="NaN" Validity="Invalid" />
+      </LeftEye>
+      <RightEye>
+        <GazeOrigin PositionInTrackBoxCoordinates="(NaN, NaN, NaN)" Validity="Invalid" />
+        <GazeOrigin PositionInUserCoordinates="(NaN, NaN, NaN)" Validity="Invalid" />
+        <GazePoint PositionInUserCoordinates="(NaN, NaN, NaN)" Validity="Invalid" />
+        <GazePoint PositionOnDisplayArea="(NaN, NaN)" Validity="Invalid" />
+        <Pupil PupilDiameter="NaN" Validity="Invalid" />
+      </RightEye>
+    </OriginalGaze>
+  </GazeData>
+  <GazeData TimeStamp="1079602983642">
+    <Left>
+      <GazeOriginInTrackBoxCoordinates Value="(NaN, NaN, NaN)" Valid="False" />
+      <GazeOriginInUserCoordinates Value="(NaN, NaN, NaN)" Valid="False" />
+      <GazePointInUserCoordinates Value="(NaN, NaN, NaN)" Valid="False" />
+      <GazePointOnDisplayArea Value="(NaN, NaN)" Valid="False" />
+      <GazeRayScreen Origin="(0.00000000, 0.00000000, 0.00000000)" Direction="(0.00000000, 0.00000000, 0.00000000)" Valid="False" />
+      <PupilDiameter Value="NaN" Valid="False" />
+    </Left>
+    <Right>
+      <GazeOriginInTrackBoxCoordinates Value="(NaN, NaN, NaN)" Valid="False" />
+      <GazeOriginInUserCoordinates Value="(NaN, NaN, NaN)" Valid="False" />
+      <GazePointInUserCoordinates Value="(NaN, NaN, NaN)" Valid="False" />
+      <GazePointOnDisplayArea Value="(NaN, NaN)" Valid="False" />
+      <GazeRayScreen Origin="(0.00000000, 0.00000000, 0.00000000)" Direction="(0.00000000, 0.00000000, 0.00000000)" Valid="False" />
+      <PupilDiameter Value="NaN" Valid="False" />
+    </Right>
+    <CombinedGazeRayScreen Origin="(0.00000000, 0.00000000, 0.00000000)" Direction="(0.00000000, 0.00000000, 0.00000000)" Valid="False" />
+    <OriginalGaze DeviceTimeStamp="27787180398" SystemTimeStamp="1079602983642">
+      <LeftEye>
+        <GazeOrigin PositionInTrackBoxCoordinates="(NaN, NaN, NaN)" Validity="Invalid" />
+        <GazeOrigin PositionInUserCoordinates="(NaN, NaN, NaN)" Validity="Invalid" />
+        <GazePoint PositionInUserCoordinates="(NaN, NaN, NaN)" Validity="Invalid" />
+        <GazePoint PositionOnDisplayArea="(NaN, NaN)" Validity="Invalid" />
+        <Pupil PupilDiameter="NaN" Validity="Invalid" />
+      </LeftEye>
+      <RightEye>
+        <GazeOrigin PositionInTrackBoxCoordinates="(NaN, NaN, NaN)" Validity="Invalid" />
+        <GazeOrigin PositionInUserCoordinates="(NaN, NaN, NaN)" Validity="Invalid" />
+        <GazePoint PositionInUserCoordinates="(NaN, NaN, NaN)" Validity="Invalid" />
+        <GazePoint PositionOnDisplayArea="(NaN, NaN)" Validity="Invalid" />
+        <Pupil PupilDiameter="NaN" Validity="Invalid" />
+      </RightEye>
+    </OriginalGaze>
+  </GazeData>
+  <GazeData TimeStamp="1079603000296">
+    <Left>
+      <GazeOriginInTrackBoxCoordinates Value="(NaN, NaN, NaN)" Valid="False" />
+      <GazeOriginInUserCoordinates Value="(NaN, NaN, NaN)" Valid="False" />
+      <GazePointInUserCoordinates Value="(NaN, NaN, NaN)" Valid="False" />
+      <GazePointOnDisplayArea Value="(NaN, NaN)" Valid="False" />
+      <GazeRayScreen Origin="(0.00000000, 0.00000000, 0.00000000)" Direction="(0.00000000, 0.00000000, 0.00000000)" Valid="False" />
+      <PupilDiameter Value="NaN" Valid="False" />
+    </Left>
+    <Right>
+      <GazeOriginInTrackBoxCoordinates Value="(NaN, NaN, NaN)" Valid="False" />
+      <GazeOriginInUserCoordinates Value="(NaN, NaN, NaN)" Valid="False" />
+      <GazePointInUserCoordinates Value="(NaN, NaN, NaN)" Valid="False" />
+      <GazePointOnDisplayArea Value="(NaN, NaN)" Valid="False" />
+      <GazeRayScreen Origin="(0.00000000, 0.00000000, 0.00000000)" Direction="(0.00000000, 0.00000000, 0.00000000)" Valid="False" />
+      <PupilDiameter Value="NaN" Valid="False" />
+    </Right>
+    <CombinedGazeRayScreen Origin="(0.00000000, 0.00000000, 0.00000000)" Direction="(0.00000000, 0.00000000, 0.00000000)" Valid="False" />
+    <OriginalGaze DeviceTimeStamp="27787197052" SystemTimeStamp="1079603000296">
+      <LeftEye>
+        <GazeOrigin PositionInTrackBoxCoordinates="(NaN, NaN, NaN)" Validity="Invalid" />
+        <GazeOrigin PositionInUserCoordinates="(NaN, NaN, NaN)" Validity="Invalid" />
+        <GazePoint PositionInUserCoordinates="(NaN, NaN, NaN)" Validity="Invalid" />
+        <GazePoint PositionOnDisplayArea="(NaN, NaN)" Validity="Invalid" />
+        <Pupil PupilDiameter="NaN" Validity="Invalid" />
+      </LeftEye>
+      <RightEye>
+        <GazeOrigin PositionInTrackBoxCoordinates="(NaN, NaN, NaN)" Validity="Invalid" />
+        <GazeOrigin PositionInUserCoordinates="(NaN, NaN, NaN)" Validity="Invalid" />
+        <GazePoint PositionInUserCoordinates="(NaN, NaN, NaN)" Validity="Invalid" />
+        <GazePoint PositionOnDisplayArea="(NaN, NaN)" Validity="Invalid" />
+        <Pupil PupilDiameter="NaN" Validity="Invalid" />
+      </RightEye>
+    </OriginalGaze>
+  </GazeData>
+  <GazeData TimeStamp="1079603016951">
+    <Left>
+      <GazeOriginInTrackBoxCoordinates Value="(NaN, NaN, NaN)" Valid="False" />
+      <GazeOriginInUserCoordinates Value="(NaN, NaN, NaN)" Valid="False" />
+      <GazePointInUserCoordinates Value="(NaN, NaN, NaN)" Valid="False" />
+      <GazePointOnDisplayArea Value="(NaN, NaN)" Valid="False" />
+      <GazeRayScreen Origin="(0.00000000, 0.00000000, 0.00000000)" Direction="(0.00000000, 0.00000000, 0.00000000)" Valid="False" />
+      <PupilDiameter Value="NaN" Valid="False" />
+    </Left>
+    <Right>
+      <GazeOriginInTrackBoxCoordinates Value="(NaN, NaN, NaN)" Valid="False" />
+      <GazeOriginInUserCoordinates Value="(NaN, NaN, NaN)" Valid="False" />
+      <GazePointInUserCoordinates Value="(NaN, NaN, NaN)" Valid="False" />
+      <GazePointOnDisplayArea Value="(NaN, NaN)" Valid="False" />
+      <GazeRayScreen Origin="(0.00000000, 0.00000000, 0.00000000)" Direction="(0.00000000, 0.00000000, 0.00000000)" Valid="False" />
+      <PupilDiameter Value="NaN" Valid="False" />
+    </Right>
+    <CombinedGazeRayScreen Origin="(0.00000000, 0.00000000, 0.00000000)" Direction="(0.00000000, 0.00000000, 0.00000000)" Valid="False" />
+    <OriginalGaze DeviceTimeStamp="27787213707" SystemTimeStamp="1079603016951">
+      <LeftEye>
+        <GazeOrigin PositionInTrackBoxCoordinates="(NaN, NaN, NaN)" Validity="Invalid" />
+        <GazeOrigin PositionInUserCoordinates="(NaN, NaN, NaN)" Validity="Invalid" />
+        <GazePoint PositionInUserCoordinates="(NaN, NaN, NaN)" Validity="Invalid" />
+        <GazePoint PositionOnDisplayArea="(NaN, NaN)" Validity="Invalid" />
+        <Pupil PupilDiameter="NaN" Validity="Invalid" />
+      </LeftEye>
+      <RightEye>
+        <GazeOrigin PositionInTrackBoxCoordinates="(NaN, NaN, NaN)" Validity="Invalid" />
+        <GazeOrigin PositionInUserCoordinates="(NaN, NaN, NaN)" Validity="Invalid" />
+        <GazePoint PositionInUserCoordinates="(NaN, NaN, NaN)" Validity="Invalid" />
+        <GazePoint PositionOnDisplayArea="(NaN, NaN)" Validity="Invalid" />
+        <Pupil PupilDiameter="NaN" Validity="Invalid" />
+      </RightEye>
+    </OriginalGaze>
+  </GazeData>
+  <GazeData TimeStamp="1079603033605">
+    <Left>
+      <GazeOriginInTrackBoxCoordinates Value="(NaN, NaN, NaN)" Valid="False" />
+      <GazeOriginInUserCoordinates Value="(NaN, NaN, NaN)" Valid="False" />
+      <GazePointInUserCoordinates Value="(NaN, NaN, NaN)" Valid="False" />
+      <GazePointOnDisplayArea Value="(NaN, NaN)" Valid="False" />
+      <GazeRayScreen Origin="(0.00000000, 0.00000000, 0.00000000)" Direction="(0.00000000, 0.00000000, 0.00000000)" Valid="False" />
+      <PupilDiameter Value="NaN" Valid="False" />
+    </Left>
+    <Right>
+      <GazeOriginInTrackBoxCoordinates Value="(NaN, NaN, NaN)" Valid="False" />
+      <GazeOriginInUserCoordinates Value="(NaN, NaN, NaN)" Valid="False" />
+      <GazePointInUserCoordinates Value="(NaN, NaN, NaN)" Valid="False" />
+      <GazePointOnDisplayArea Value="(NaN, NaN)" Valid="False" />
+      <GazeRayScreen Origin="(0.00000000, 0.00000000, 0.00000000)" Direction="(0.00000000, 0.00000000, 0.00000000)" Valid="False" />
+      <PupilDiameter Value="NaN" Valid="False" />
+    </Right>
+    <CombinedGazeRayScreen Origin="(0.00000000, 0.00000000, 0.00000000)" Direction="(0.00000000, 0.00000000, 0.00000000)" Valid="False" />
+    <OriginalGaze DeviceTimeStamp="27787230362" SystemTimeStamp="1079603033605">
+      <LeftEye>
+        <GazeOrigin PositionInTrackBoxCoordinates="(NaN, NaN, NaN)" Validity="Invalid" />
+        <GazeOrigin PositionInUserCoordinates="(NaN, NaN, NaN)" Validity="Invalid" />
+        <GazePoint PositionInUserCoordinates="(NaN, NaN, NaN)" Validity="Invalid" />
+        <GazePoint PositionOnDisplayArea="(NaN, NaN)" Validity="Invalid" />
+        <Pupil PupilDiameter="NaN" Validity="Invalid" />
+      </LeftEye>
+      <RightEye>
+        <GazeOrigin PositionInTrackBoxCoordinates="(NaN, NaN, NaN)" Validity="Invalid" />
+        <GazeOrigin PositionInUserCoordinates="(NaN, NaN, NaN)" Validity="Invalid" />
+        <GazePoint PositionInUserCoordinates="(NaN, NaN, NaN)" Validity="Invalid" />
+        <GazePoint PositionOnDisplayArea="(NaN, NaN)" Validity="Invalid" />
+        <Pupil PupilDiameter="NaN" Validity="Invalid" />
+      </RightEye>
+    </OriginalGaze>
+  </GazeData>
+  <GazeData TimeStamp="1079603050259">
+    <Left>
+      <GazeOriginInTrackBoxCoordinates Value="(NaN, NaN, NaN)" Valid="False" />
+      <GazeOriginInUserCoordinates Value="(NaN, NaN, NaN)" Valid="False" />
+      <GazePointInUserCoordinates Value="(NaN, NaN, NaN)" Valid="False" />
+      <GazePointOnDisplayArea Value="(NaN, NaN)" Valid="False" />
+      <GazeRayScreen Origin="(0.00000000, 0.00000000, 0.00000000)" Direction="(0.00000000, 0.00000000, 0.00000000)" Valid="False" />
+      <PupilDiameter Value="NaN" Valid="False" />
+    </Left>
+    <Right>
+      <GazeOriginInTrackBoxCoordinates Value="(NaN, NaN, NaN)" Valid="False" />
+      <GazeOriginInUserCoordinates Value="(NaN, NaN, NaN)" Valid="False" />
+      <GazePointInUserCoordinates Value="(NaN, NaN, NaN)" Valid="False" />
+      <GazePointOnDisplayArea Value="(NaN, NaN)" Valid="False" />
+      <GazeRayScreen Origin="(0.00000000, 0.00000000, 0.00000000)" Direction="(0.00000000, 0.00000000, 0.00000000)" Valid="False" />
+      <PupilDiameter Value="NaN" Valid="False" />
+    </Right>
+    <CombinedGazeRayScreen Origin="(0.00000000, 0.00000000, 0.00000000)" Direction="(0.00000000, 0.00000000, 0.00000000)" Valid="False" />
+    <OriginalGaze DeviceTimeStamp="27787247016" SystemTimeStamp="1079603050259">
+      <LeftEye>
+        <GazeOrigin PositionInTrackBoxCoordinates="(NaN, NaN, NaN)" Validity="Invalid" />
+        <GazeOrigin PositionInUserCoordinates="(NaN, NaN, NaN)" Validity="Invalid" />
+        <GazePoint PositionInUserCoordinates="(NaN, NaN, NaN)" Validity="Invalid" />
+        <GazePoint PositionOnDisplayArea="(NaN, NaN)" Validity="Invalid" />
+        <Pupil PupilDiameter="NaN" Validity="Invalid" />
+      </LeftEye>
+      <RightEye>
+        <GazeOrigin PositionInTrackBoxCoordinates="(NaN, NaN, NaN)" Validity="Invalid" />
+        <GazeOrigin PositionInUserCoordinates="(NaN, NaN, NaN)" Validity="Invalid" />
+        <GazePoint PositionInUserCoordinates="(NaN, NaN, NaN)" Validity="Invalid" />
+        <GazePoint PositionOnDisplayArea="(NaN, NaN)" Validity="Invalid" />
+        <Pupil PupilDiameter="NaN" Validity="Invalid" />
+      </RightEye>
+    </OriginalGaze>
+  </GazeData>
+  <GazeData TimeStamp="1079603066914">
+    <Left>
+      <GazeOriginInTrackBoxCoordinates Value="(NaN, NaN, NaN)" Valid="False" />
+      <GazeOriginInUserCoordinates Value="(NaN, NaN, NaN)" Valid="False" />
+      <GazePointInUserCoordinates Value="(NaN, NaN, NaN)" Valid="False" />
+      <GazePointOnDisplayArea Value="(NaN, NaN)" Valid="False" />
+      <GazeRayScreen Origin="(0.00000000, 0.00000000, 0.00000000)" Direction="(0.00000000, 0.00000000, 0.00000000)" Valid="False" />
+      <PupilDiameter Value="NaN" Valid="False" />
+    </Left>
+    <Right>
+      <GazeOriginInTrackBoxCoordinates Value="(NaN, NaN, NaN)" Valid="False" />
+      <GazeOriginInUserCoordinates Value="(NaN, NaN, NaN)" Valid="False" />
+      <GazePointInUserCoordinates Value="(NaN, NaN, NaN)" Valid="False" />
+      <GazePointOnDisplayArea Value="(NaN, NaN)" Valid="False" />
+      <GazeRayScreen Origin="(0.00000000, 0.00000000, 0.00000000)" Direction="(0.00000000, 0.00000000, 0.00000000)" Valid="False" />
+      <PupilDiameter Value="NaN" Valid="False" />
+    </Right>
+    <CombinedGazeRayScreen Origin="(0.00000000, 0.00000000, 0.00000000)" Direction="(0.00000000, 0.00000000, 0.00000000)" Valid="False" />
+    <OriginalGaze DeviceTimeStamp="27787263671" SystemTimeStamp="1079603066914">
+      <LeftEye>
+        <GazeOrigin PositionInTrackBoxCoordinates="(NaN, NaN, NaN)" Validity="Invalid" />
+        <GazeOrigin PositionInUserCoordinates="(NaN, NaN, NaN)" Validity="Invalid" />
+        <GazePoint PositionInUserCoordinates="(NaN, NaN, NaN)" Validity="Invalid" />
+        <GazePoint PositionOnDisplayArea="(NaN, NaN)" Validity="Invalid" />
+        <Pupil PupilDiameter="NaN" Validity="Invalid" />
+      </LeftEye>
+      <RightEye>
+        <GazeOrigin PositionInTrackBoxCoordinates="(NaN, NaN, NaN)" Validity="Invalid" />
+        <GazeOrigin PositionInUserCoordinates="(NaN, NaN, NaN)" Validity="Invalid" />
+        <GazePoint PositionInUserCoordinates="(NaN, NaN, NaN)" Validity="Invalid" />
+        <GazePoint PositionOnDisplayArea="(NaN, NaN)" Validity="Invalid" />
+        <Pupil PupilDiameter="NaN" Validity="Invalid" />
+      </RightEye>
+    </OriginalGaze>
+  </GazeData>
+  <GazeData TimeStamp="1079603083568">
+    <Left>
+      <GazeOriginInTrackBoxCoordinates Value="(NaN, NaN, NaN)" Valid="False" />
+      <GazeOriginInUserCoordinates Value="(NaN, NaN, NaN)" Valid="False" />
+      <GazePointInUserCoordinates Value="(NaN, NaN, NaN)" Valid="False" />
+      <GazePointOnDisplayArea Value="(NaN, NaN)" Valid="False" />
+      <GazeRayScreen Origin="(0.00000000, 0.00000000, 0.00000000)" Direction="(0.00000000, 0.00000000, 0.00000000)" Valid="False" />
+      <PupilDiameter Value="NaN" Valid="False" />
+    </Left>
+    <Right>
+      <GazeOriginInTrackBoxCoordinates Value="(NaN, NaN, NaN)" Valid="False" />
+      <GazeOriginInUserCoordinates Value="(NaN, NaN, NaN)" Valid="False" />
+      <GazePointInUserCoordinates Value="(NaN, NaN, NaN)" Valid="False" />
+      <GazePointOnDisplayArea Value="(NaN, NaN)" Valid="False" />
+      <GazeRayScreen Origin="(0.00000000, 0.00000000, 0.00000000)" Direction="(0.00000000, 0.00000000, 0.00000000)" Valid="False" />
+      <PupilDiameter Value="NaN" Valid="False" />
+    </Right>
+    <CombinedGazeRayScreen Origin="(0.00000000, 0.00000000, 0.00000000)" Direction="(0.00000000, 0.00000000, 0.00000000)" Valid="False" />
+    <OriginalGaze DeviceTimeStamp="27787280326" SystemTimeStamp="1079603083568">
+      <LeftEye>
+        <GazeOrigin PositionInTrackBoxCoordinates="(NaN, NaN, NaN)" Validity="Invalid" />
+        <GazeOrigin PositionInUserCoordinates="(NaN, NaN, NaN)" Validity="Invalid" />
+        <GazePoint PositionInUserCoordinates="(NaN, NaN, NaN)" Validity="Invalid" />
+        <GazePoint PositionOnDisplayArea="(NaN, NaN)" Validity="Invalid" />
+        <Pupil PupilDiameter="NaN" Validity="Invalid" />
+      </LeftEye>
+      <RightEye>
+        <GazeOrigin PositionInTrackBoxCoordinates="(NaN, NaN, NaN)" Validity="Invalid" />
+        <GazeOrigin PositionInUserCoordinates="(NaN, NaN, NaN)" Validity="Invalid" />
+        <GazePoint PositionInUserCoordinates="(NaN, NaN, NaN)" Validity="Invalid" />
+        <GazePoint PositionOnDisplayArea="(NaN, NaN)" Validity="Invalid" />
+        <Pupil PupilDiameter="NaN" Validity="Invalid" />
+      </RightEye>
+    </OriginalGaze>
+  </GazeData>
+  <GazeData TimeStamp="1079603100222">
+    <Left>
+      <GazeOriginInTrackBoxCoordinates Value="(NaN, NaN, NaN)" Valid="False" />
+      <GazeOriginInUserCoordinates Value="(NaN, NaN, NaN)" Valid="False" />
+      <GazePointInUserCoordinates Value="(NaN, NaN, NaN)" Valid="False" />
+      <GazePointOnDisplayArea Value="(NaN, NaN)" Valid="False" />
+      <GazeRayScreen Origin="(0.00000000, 0.00000000, 0.00000000)" Direction="(0.00000000, 0.00000000, 0.00000000)" Valid="False" />
+      <PupilDiameter Value="NaN" Valid="False" />
+    </Left>
+    <Right>
+      <GazeOriginInTrackBoxCoordinates Value="(NaN, NaN, NaN)" Valid="False" />
+      <GazeOriginInUserCoordinates Value="(NaN, NaN, NaN)" Valid="False" />
+      <GazePointInUserCoordinates Value="(NaN, NaN, NaN)" Valid="False" />
+      <GazePointOnDisplayArea Value="(NaN, NaN)" Valid="False" />
+      <GazeRayScreen Origin="(0.00000000, 0.00000000, 0.00000000)" Direction="(0.00000000, 0.00000000, 0.00000000)" Valid="False" />
+      <PupilDiameter Value="NaN" Valid="False" />
+    </Right>
+    <CombinedGazeRayScreen Origin="(0.00000000, 0.00000000, 0.00000000)" Direction="(0.00000000, 0.00000000, 0.00000000)" Valid="False" />
+    <OriginalGaze DeviceTimeStamp="27787296980" SystemTimeStamp="1079603100222">
+      <LeftEye>
+        <GazeOrigin PositionInTrackBoxCoordinates="(NaN, NaN, NaN)" Validity="Invalid" />
+        <GazeOrigin PositionInUserCoordinates="(NaN, NaN, NaN)" Validity="Invalid" />
+        <GazePoint PositionInUserCoordinates="(NaN, NaN, NaN)" Validity="Invalid" />
+        <GazePoint PositionOnDisplayArea="(NaN, NaN)" Validity="Invalid" />
+        <Pupil PupilDiameter="NaN" Validity="Invalid" />
+      </LeftEye>
+      <RightEye>
+        <GazeOrigin PositionInTrackBoxCoordinates="(NaN, NaN, NaN)" Validity="Invalid" />
+        <GazeOrigin PositionInUserCoordinates="(NaN, NaN, NaN)" Validity="Invalid" />
+        <GazePoint PositionInUserCoordinates="(NaN, NaN, NaN)" Validity="Invalid" />
+        <GazePoint PositionOnDisplayArea="(NaN, NaN)" Validity="Invalid" />
+        <Pupil PupilDiameter="NaN" Validity="Invalid" />
+      </RightEye>
+    </OriginalGaze>
+  </GazeData>
+  <GazeData TimeStamp="1079603116877">
+    <Left>
+      <GazeOriginInTrackBoxCoordinates Value="(NaN, NaN, NaN)" Valid="False" />
+      <GazeOriginInUserCoordinates Value="(NaN, NaN, NaN)" Valid="False" />
+      <GazePointInUserCoordinates Value="(NaN, NaN, NaN)" Valid="False" />
+      <GazePointOnDisplayArea Value="(NaN, NaN)" Valid="False" />
+      <GazeRayScreen Origin="(0.00000000, 0.00000000, 0.00000000)" Direction="(0.00000000, 0.00000000, 0.00000000)" Valid="False" />
+      <PupilDiameter Value="NaN" Valid="False" />
+    </Left>
+    <Right>
+      <GazeOriginInTrackBoxCoordinates Value="(NaN, NaN, NaN)" Valid="False" />
+      <GazeOriginInUserCoordinates Value="(NaN, NaN, NaN)" Valid="False" />
+      <GazePointInUserCoordinates Value="(NaN, NaN, NaN)" Valid="False" />
+      <GazePointOnDisplayArea Value="(NaN, NaN)" Valid="False" />
+      <GazeRayScreen Origin="(0.00000000, 0.00000000, 0.00000000)" Direction="(0.00000000, 0.00000000, 0.00000000)" Valid="False" />
+      <PupilDiameter Value="NaN" Valid="False" />
+    </Right>
+    <CombinedGazeRayScreen Origin="(0.00000000, 0.00000000, 0.00000000)" Direction="(0.00000000, 0.00000000, 0.00000000)" Valid="False" />
+    <OriginalGaze DeviceTimeStamp="27787313635" SystemTimeStamp="1079603116877">
+      <LeftEye>
+        <GazeOrigin PositionInTrackBoxCoordinates="(NaN, NaN, NaN)" Validity="Invalid" />
+        <GazeOrigin PositionInUserCoordinates="(NaN, NaN, NaN)" Validity="Invalid" />
+        <GazePoint PositionInUserCoordinates="(NaN, NaN, NaN)" Validity="Invalid" />
+        <GazePoint PositionOnDisplayArea="(NaN, NaN)" Validity="Invalid" />
+        <Pupil PupilDiameter="NaN" Validity="Invalid" />
+      </LeftEye>
+      <RightEye>
+        <GazeOrigin PositionInTrackBoxCoordinates="(NaN, NaN, NaN)" Validity="Invalid" />
+        <GazeOrigin PositionInUserCoordinates="(NaN, NaN, NaN)" Validity="Invalid" />
+        <GazePoint PositionInUserCoordinates="(NaN, NaN, NaN)" Validity="Invalid" />
+        <GazePoint PositionOnDisplayArea="(NaN, NaN)" Validity="Invalid" />
+        <Pupil PupilDiameter="NaN" Validity="Invalid" />
+      </RightEye>
+    </OriginalGaze>
+  </GazeData>
+  <GazeData TimeStamp="1079603133531">
+    <Left>
+      <GazeOriginInTrackBoxCoordinates Value="(NaN, NaN, NaN)" Valid="False" />
+      <GazeOriginInUserCoordinates Value="(NaN, NaN, NaN)" Valid="False" />
+      <GazePointInUserCoordinates Value="(NaN, NaN, NaN)" Valid="False" />
+      <GazePointOnDisplayArea Value="(NaN, NaN)" Valid="False" />
+      <GazeRayScreen Origin="(0.00000000, 0.00000000, 0.00000000)" Direction="(0.00000000, 0.00000000, 0.00000000)" Valid="False" />
+      <PupilDiameter Value="NaN" Valid="False" />
+    </Left>
+    <Right>
+      <GazeOriginInTrackBoxCoordinates Value="(NaN, NaN, NaN)" Valid="False" />
+      <GazeOriginInUserCoordinates Value="(NaN, NaN, NaN)" Valid="False" />
+      <GazePointInUserCoordinates Value="(NaN, NaN, NaN)" Valid="False" />
+      <GazePointOnDisplayArea Value="(NaN, NaN)" Valid="False" />
+      <GazeRayScreen Origin="(0.00000000, 0.00000000, 0.00000000)" Direction="(0.00000000, 0.00000000, 0.00000000)" Valid="False" />
+      <PupilDiameter Value="NaN" Valid="False" />
+    </Right>
+    <CombinedGazeRayScreen Origin="(0.00000000, 0.00000000, 0.00000000)" Direction="(0.00000000, 0.00000000, 0.00000000)" Valid="False" />
+    <OriginalGaze DeviceTimeStamp="27787330290" SystemTimeStamp="1079603133531">
+      <LeftEye>
+        <GazeOrigin PositionInTrackBoxCoordinates="(NaN, NaN, NaN)" Validity="Invalid" />
+        <GazeOrigin PositionInUserCoordinates="(NaN, NaN, NaN)" Validity="Invalid" />
+        <GazePoint PositionInUserCoordinates="(NaN, NaN, NaN)" Validity="Invalid" />
+        <GazePoint PositionOnDisplayArea="(NaN, NaN)" Validity="Invalid" />
+        <Pupil PupilDiameter="NaN" Validity="Invalid" />
+      </LeftEye>
+      <RightEye>
+        <GazeOrigin PositionInTrackBoxCoordinates="(NaN, NaN, NaN)" Validity="Invalid" />
+        <GazeOrigin PositionInUserCoordinates="(NaN, NaN, NaN)" Validity="Invalid" />
+        <GazePoint PositionInUserCoordinates="(NaN, NaN, NaN)" Validity="Invalid" />
+        <GazePoint PositionOnDisplayArea="(NaN, NaN)" Validity="Invalid" />
+        <Pupil PupilDiameter="NaN" Validity="Invalid" />
+      </RightEye>
+    </OriginalGaze>
+  </GazeData>
+  <GazeData TimeStamp="1079603150185">
+    <Left>
+      <GazeOriginInTrackBoxCoordinates Value="(NaN, NaN, NaN)" Valid="False" />
+      <GazeOriginInUserCoordinates Value="(NaN, NaN, NaN)" Valid="False" />
+      <GazePointInUserCoordinates Value="(NaN, NaN, NaN)" Valid="False" />
+      <GazePointOnDisplayArea Value="(NaN, NaN)" Valid="False" />
+      <GazeRayScreen Origin="(0.00000000, 0.00000000, 0.00000000)" Direction="(0.00000000, 0.00000000, 0.00000000)" Valid="False" />
+      <PupilDiameter Value="NaN" Valid="False" />
+    </Left>
+    <Right>
+      <GazeOriginInTrackBoxCoordinates Value="(NaN, NaN, NaN)" Valid="False" />
+      <GazeOriginInUserCoordinates Value="(NaN, NaN, NaN)" Valid="False" />
+      <GazePointInUserCoordinates Value="(NaN, NaN, NaN)" Valid="False" />
+      <GazePointOnDisplayArea Value="(NaN, NaN)" Valid="False" />
+      <GazeRayScreen Origin="(0.00000000, 0.00000000, 0.00000000)" Direction="(0.00000000, 0.00000000, 0.00000000)" Valid="False" />
+      <PupilDiameter Value="NaN" Valid="False" />
+    </Right>
+    <CombinedGazeRayScreen Origin="(0.00000000, 0.00000000, 0.00000000)" Direction="(0.00000000, 0.00000000, 0.00000000)" Valid="False" />
+    <OriginalGaze DeviceTimeStamp="27787346944" SystemTimeStamp="1079603150185">
+      <LeftEye>
+        <GazeOrigin PositionInTrackBoxCoordinates="(NaN, NaN, NaN)" Validity="Invalid" />
+        <GazeOrigin PositionInUserCoordinates="(NaN, NaN, NaN)" Validity="Invalid" />
+        <GazePoint PositionInUserCoordinates="(NaN, NaN, NaN)" Validity="Invalid" />
+        <GazePoint PositionOnDisplayArea="(NaN, NaN)" Validity="Invalid" />
+        <Pupil PupilDiameter="NaN" Validity="Invalid" />
+      </LeftEye>
+      <RightEye>
+        <GazeOrigin PositionInTrackBoxCoordinates="(NaN, NaN, NaN)" Validity="Invalid" />
+        <GazeOrigin PositionInUserCoordinates="(NaN, NaN, NaN)" Validity="Invalid" />
+        <GazePoint PositionInUserCoordinates="(NaN, NaN, NaN)" Validity="Invalid" />
+        <GazePoint PositionOnDisplayArea="(NaN, NaN)" Validity="Invalid" />
+        <Pupil PupilDiameter="NaN" Validity="Invalid" />
+      </RightEye>
+    </OriginalGaze>
+  </GazeData>
+  <GazeData TimeStamp="1079603166840">
+    <Left>
+      <GazeOriginInTrackBoxCoordinates Value="(NaN, NaN, NaN)" Valid="False" />
+      <GazeOriginInUserCoordinates Value="(NaN, NaN, NaN)" Valid="False" />
+      <GazePointInUserCoordinates Value="(NaN, NaN, NaN)" Valid="False" />
+      <GazePointOnDisplayArea Value="(NaN, NaN)" Valid="False" />
+      <GazeRayScreen Origin="(0.00000000, 0.00000000, 0.00000000)" Direction="(0.00000000, 0.00000000, 0.00000000)" Valid="False" />
+      <PupilDiameter Value="NaN" Valid="False" />
+    </Left>
+    <Right>
+      <GazeOriginInTrackBoxCoordinates Value="(NaN, NaN, NaN)" Valid="False" />
+      <GazeOriginInUserCoordinates Value="(NaN, NaN, NaN)" Valid="False" />
+      <GazePointInUserCoordinates Value="(NaN, NaN, NaN)" Valid="False" />
+      <GazePointOnDisplayArea Value="(NaN, NaN)" Valid="False" />
+      <GazeRayScreen Origin="(0.00000000, 0.00000000, 0.00000000)" Direction="(0.00000000, 0.00000000, 0.00000000)" Valid="False" />
+      <PupilDiameter Value="NaN" Valid="False" />
+    </Right>
+    <CombinedGazeRayScreen Origin="(0.00000000, 0.00000000, 0.00000000)" Direction="(0.00000000, 0.00000000, 0.00000000)" Valid="False" />
+    <OriginalGaze DeviceTimeStamp="27787363599" SystemTimeStamp="1079603166840">
+      <LeftEye>
+        <GazeOrigin PositionInTrackBoxCoordinates="(NaN, NaN, NaN)" Validity="Invalid" />
+        <GazeOrigin PositionInUserCoordinates="(NaN, NaN, NaN)" Validity="Invalid" />
+        <GazePoint PositionInUserCoordinates="(NaN, NaN, NaN)" Validity="Invalid" />
+        <GazePoint PositionOnDisplayArea="(NaN, NaN)" Validity="Invalid" />
+        <Pupil PupilDiameter="NaN" Validity="Invalid" />
+      </LeftEye>
+      <RightEye>
+        <GazeOrigin PositionInTrackBoxCoordinates="(NaN, NaN, NaN)" Validity="Invalid" />
+        <GazeOrigin PositionInUserCoordinates="(NaN, NaN, NaN)" Validity="Invalid" />
+        <GazePoint PositionInUserCoordinates="(NaN, NaN, NaN)" Validity="Invalid" />
+        <GazePoint PositionOnDisplayArea="(NaN, NaN)" Validity="Invalid" />
+        <Pupil PupilDiameter="NaN" Validity="Invalid" />
+      </RightEye>
+    </OriginalGaze>
+  </GazeData>
+  <GazeData TimeStamp="1079603183495">
+    <Left>
+      <GazeOriginInTrackBoxCoordinates Value="(NaN, NaN, NaN)" Valid="False" />
+      <GazeOriginInUserCoordinates Value="(NaN, NaN, NaN)" Valid="False" />
+      <GazePointInUserCoordinates Value="(NaN, NaN, NaN)" Valid="False" />
+      <GazePointOnDisplayArea Value="(NaN, NaN)" Valid="False" />
+      <GazeRayScreen Origin="(0.00000000, 0.00000000, 0.00000000)" Direction="(0.00000000, 0.00000000, 0.00000000)" Valid="False" />
+      <PupilDiameter Value="NaN" Valid="False" />
+    </Left>
+    <Right>
+      <GazeOriginInTrackBoxCoordinates Value="(NaN, NaN, NaN)" Valid="False" />
+      <GazeOriginInUserCoordinates Value="(NaN, NaN, NaN)" Valid="False" />
+      <GazePointInUserCoordinates Value="(NaN, NaN, NaN)" Valid="False" />
+      <GazePointOnDisplayArea Value="(NaN, NaN)" Valid="False" />
+      <GazeRayScreen Origin="(0.00000000, 0.00000000, 0.00000000)" Direction="(0.00000000, 0.00000000, 0.00000000)" Valid="False" />
+      <PupilDiameter Value="NaN" Valid="False" />
+    </Right>
+    <CombinedGazeRayScreen Origin="(0.00000000, 0.00000000, 0.00000000)" Direction="(0.00000000, 0.00000000, 0.00000000)" Valid="False" />
+    <OriginalGaze DeviceTimeStamp="27787380254" SystemTimeStamp="1079603183495">
+      <LeftEye>
+        <GazeOrigin PositionInTrackBoxCoordinates="(NaN, NaN, NaN)" Validity="Invalid" />
+        <GazeOrigin PositionInUserCoordinates="(NaN, NaN, NaN)" Validity="Invalid" />
+        <GazePoint PositionInUserCoordinates="(NaN, NaN, NaN)" Validity="Invalid" />
+        <GazePoint PositionOnDisplayArea="(NaN, NaN)" Validity="Invalid" />
+        <Pupil PupilDiameter="NaN" Validity="Invalid" />
+      </LeftEye>
+      <RightEye>
+        <GazeOrigin PositionInTrackBoxCoordinates="(NaN, NaN, NaN)" Validity="Invalid" />
+        <GazeOrigin PositionInUserCoordinates="(NaN, NaN, NaN)" Validity="Invalid" />
+        <GazePoint PositionInUserCoordinates="(NaN, NaN, NaN)" Validity="Invalid" />
+        <GazePoint PositionOnDisplayArea="(NaN, NaN)" Validity="Invalid" />
+        <Pupil PupilDiameter="NaN" Validity="Invalid" />
+      </RightEye>
+    </OriginalGaze>
+  </GazeData>
+</Data>

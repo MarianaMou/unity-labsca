@@ -64,6 +64,16 @@ namespace StarterAssets
 		private float _jumpTimeoutDelta;
 		private float _fallTimeoutDelta;
 
+		public GameObject e2;
+		public GameObject e3;
+		public GameObject e4;
+
+		public Light l2;
+		public Light l3;
+		public Light l4;
+
+		public bool Popup=false;
+
 	
 #if ENABLE_INPUT_SYSTEM
 		private PlayerInput _playerInput;
@@ -115,6 +125,11 @@ namespace StarterAssets
 			JumpAndGravity();
 			GroundedCheck();
 			Move();
+            if (Input.GetKeyDown("e"))
+            {
+				RevelerEnigme(transform.position);
+			}
+			
 		}
 
 		private void LateUpdate()
@@ -127,6 +142,32 @@ namespace StarterAssets
 			// set sphere position, with offset
 			Vector3 spherePosition = new Vector3(transform.position.x, transform.position.y - GroundedOffset, transform.position.z);
 			Grounded = Physics.CheckSphere(spherePosition, GroundedRadius, GroundLayers, QueryTriggerInteraction.Ignore);
+		}
+		private void RevelerEnigme(Vector3 pos)
+        {
+            if (pos.x>1&&pos.x<7&&pos.z>10&&pos.z<13) {
+				e2.transform.position = new Vector3(4f, 2.2f, 10f);
+				e2.transform.localScale = new Vector3(1.5f,1.5f,0.2f);
+				if (l2.intensity == 0)
+                {
+					Popup = true;
+					l2.intensity = 1;
+				}
+				
+			}
+            if (pos.x > 16 && pos.x < 19 && pos.z > 3 && pos.z < 8)
+            {
+				e3.transform.position = new Vector3(16.2f, 2.2f, 5.7f);
+				e3.transform.localScale = new Vector3(1.5f, 1.5f, 0.2f);
+				l3.intensity = 1;
+
+			}
+			if (pos.x > -8 && pos.x < -2 && pos.z > -11.1 && pos.z < -9)
+			{
+				e4.transform.position = new Vector3(-5.3f, 2.2f, -11.1f);
+				e4.transform.localScale = new Vector3(1.5f, 1.5f, 0.2f);
+				l4.intensity = 1;
+			}
 		}
 
 		private void CameraRotation()
