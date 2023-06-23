@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 
 public class bot : MonoBehaviour
@@ -19,6 +20,7 @@ public class bot : MonoBehaviour
     public Vector3 pointDePatrouille;
     bool patrouille;
     public float distancePatrouille;
+    public float zoneDePatrouille;
 
     //attaque
     public float tempsAvantAttaque;
@@ -35,8 +37,13 @@ public class bot : MonoBehaviour
     public GameObject lecan;
     public GameObject joueur1;
     public GameObject bital;
-    private bool finAtt = false;
-    
+    public bool enAttack = false;
+    public bool finAppraisal = false;
+    [SerializeField]
+    private AudioSource marcheSon;
+    [SerializeField]
+    private AudioSource attackSon;
+
 
     private void Awake()
     {
@@ -46,7 +53,7 @@ public class bot : MonoBehaviour
         lecan.SetActive(false);
         p1 = joueur1.GetComponent<StarterAssets.FirstPersonController>();
         freq = bital.GetComponent<Hybrid8Test>();
-
+        //marcheSon = GetComponent<AudioSource>();
 
 
     }
@@ -74,7 +81,7 @@ public class bot : MonoBehaviour
         else
         {
             animator.SetFloat("vitesse", (agent.velocity.magnitude * 1.4f));
-            Debug.Log((float)(agent.velocity.magnitude + (agent.velocity.magnitude * 1.4f)));
+           // Debug.Log("vitesse stresser"+(float)(agent.velocity.magnitude + (agent.velocity.magnitude * 1.4f)));
         }
         
         //Debug.Log("nom" + agent.name + "vitesse" + agent.velocity.magnitude);
@@ -88,7 +95,13 @@ public class bot : MonoBehaviour
         if (patrouille)
         {
             agent.SetDestination(pointDePatrouille);
-            //Debug.Log("il bouge");
+            //FindObjectOfType<AudioManager>().Play("marcheb");
+            if (!marcheSon.isPlaying)
+            {
+                marcheSon.Play();
+            }
+           
+            //Debug.Log("il bouge "+agent.name);
         }
             
 
@@ -98,7 +111,7 @@ public class bot : MonoBehaviour
         // est arrivé sur le point de patrouille
         if (distanceEntre2Points.magnitude < 1f)
         {
-           // Debug.Log("il est arrivé");
+            Debug.Log("il est arrivé"+agent.name);
             patrouille = false;
         }
             
@@ -112,21 +125,24 @@ public class bot : MonoBehaviour
 
         if (agent.name != "Foxp")
         {
-            pointDePatrouille = new Vector3(transform.position.x + randomX, transform.position.y, transform.position.z + randomZ);
+            pointDePatrouille = new Vector3(randomX, transform.position.y, randomZ);
+            Debug.Log("patpatrouille Pas foxp"+pointDePatrouille);
 
         }
 
         if (p1.Popup && agent.name == "Foxp")
         {
-            
+            Debug.Log("je suis foxp et jattack");
             agent.transform.position = new Vector3(-12f,-4.75f,8.5f);
             pointDePatrouille = new Vector3(4f, 1f, 12f);
             //Debug.Log("popup " + p1.Popup + "nom " + agent.name + "la pos " + agent.transform.position);
             p1.Popup = false;
-            finAtt = true;
+            enAttack = true;
         }
-        else if (agent.name == "Foxp" && finAtt)
+        else if (agent.name == "Foxp" && enAttack)
         {
+            Debug.Log("patpatrouille foxp");
+            finAppraisal=true;
             // Debug.Log("------popup " + p1.Popup + "nom " + agent.name + "la pos " + agent.transform.position);
             pointDePatrouille = new Vector3(transform.position.x + randomX, transform.position.y, transform.position.z + randomZ);
         }
@@ -136,7 +152,7 @@ public class bot : MonoBehaviour
 
         // Debug.Log(pointDePatrouille);
         //dans la limite du terrain alors patrouille
-        if (Physics.Raycast(pointDePatrouille, -transform.up,2f, lesol))
+        if (Physics.Raycast(pointDePatrouille, -transform.up,2f, lesol) && pointDePatrouille.x>-zoneDePatrouille && pointDePatrouille.x < zoneDePatrouille && pointDePatrouille.z > -zoneDePatrouille && pointDePatrouille.z < zoneDePatrouille)
         {
            // Debug.Log("je verifie");
             patrouille = true;
@@ -146,12 +162,18 @@ public class bot : MonoBehaviour
     private void Poursuite()
     {
         agent.SetDestination(joueur.position);
-        Debug.Log("je suis");
+       // Debug.Log("je suis");
     }
     private void AttaqueJoueur()
     {
-        Debug.Log("jatt");
-        lecan.SetActive(true);
+        // Debug.Log("jatt");
+        if (!perdu)
+        {
+            attackSon.Play();
+            perdu = true;
+        }
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        //lecan.SetActive(true);
     }
 
     private void OnTriggerEnter(Collider other)
@@ -159,7 +181,7 @@ public class bot : MonoBehaviour
         if (other.gameObject.tag == "Player")
         {
             perdu = true;
-            Debug.Log("collision");
+           // Debug.Log("collision");
             lecan.SetActive(true);
         }
     }

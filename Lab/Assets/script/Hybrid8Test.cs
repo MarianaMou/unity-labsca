@@ -43,19 +43,36 @@ public class Hybrid8Test : MonoBehaviour
 
     public int distanceMin = 10;
     public int compteurDistance = 0;
-    public int seuil = 600;
+    public int seuil = 550;
     public int compteurPic = 0;
     public List<int> lesPics;
     public List<int> lesTemps;
     public int freq;
     public bool ajoutPic = false;
-    public int moyen10RR = 10;
+    public int moyen10RR;
     public bool stresser = false;
+    public int moyenAppr;
+    private int compteurAppr=0;
 
+    StarterAssets.FirstPersonController p1;
+    public GameObject joueur1;
+    bot bot;
+
+    public GameObject foxp;
+
+
+
+    private void Awake()
+    {
+        p1 = joueur1.GetComponent<StarterAssets.FirstPersonController>();
+        bot = foxp.GetComponent<bot>();
+    }
     // Start is called before the first frame update
     private void Start()
     {
         CreerText("");
+        CreerFreq("");
+        CreerAppraisal("");
         // Initialise object
         pluxDevManager = new PluxDeviceManager(ScanResults, ConnectionDone, AcquisitionStarted, OnDataReceived, OnEventDetected, OnExceptionRaised);
 
@@ -84,6 +101,41 @@ public class Hybrid8Test : MonoBehaviour
         }
 
     }
+    void CreerFreq(string contenu)
+    {
+        string chemin = Application.dataPath + "/Frequence_Cardique_Participant.txt";
+
+        //est ce que ce fichier existe deja? si il exite pas alors on le créer
+        if (!File.Exists(chemin))
+        {
+            File.WriteAllText(chemin, "");
+        }
+
+        //ajouter du contenu
+        if (contenu != "")
+        {
+            File.AppendAllText(chemin, contenu);
+        }
+
+    }
+    void CreerAppraisal(string contenu)
+    {
+        string chemin = Application.dataPath + "/Appraisal_Frequence_Cardique_Participant.txt";
+
+        //est ce que ce fichier existe deja? si il exite pas alors on le créer
+        if (!File.Exists(chemin))
+        {
+            File.WriteAllText(chemin, "");
+        }
+
+        //ajouter du contenu
+        if (contenu != "")
+        {
+            File.AppendAllText(chemin, contenu);
+        }
+
+    }
+
 
     // Method invoked when the application was closed.
     private void OnApplicationQuit()
@@ -389,30 +441,28 @@ public class Hybrid8Test : MonoBehaviour
             OutputMsgText.text = outputString;
         }
 
-
-
-
-        // donnée enregistre + ajouter ds log avec detection de pic
+        // parcours les différents types de données recu par le bitalino, dans notre cas il n'est pas utile de faire cela
         for (int j = 0; j < data.Length; j++)
         {
-            // detecte les pics suppéreieur au seuil
+            // detecte les pics suppéreieur au seuil (par defaut 600 threshold) mais il faut adapter au participant
             //Debug.Log("compteurDsit (>10): " + compteurDistance+"cont de tem : "+ lesTemps.Count);
             if (data[j] > seuil && compteurDistance > distanceMin)
 
             {
-                CreerText(data[j] + " pic \n");
-                //ajouter les pics les 6 dernières sercondes + les temps ou les pic on été trouvée
-                // si un pic apparait au dela de 6 sec d'intervalle on enlève ce pic dans lesPics et le temps corespondand ds lesTemps .
+                CreerText(data[j] + " pic \n");//enregistre la donnée dans un fichier texte avec le mots pic à coté
+                //ajouter les pics les 60 dernières sercondes + les temps ou les pic on été trouvée
+
+                // si un pic apparait au dela de 60 sec d'intervalle on enlève ce pic dans lesPics et le temps corespondand ds lesTemps .
                 if (lesTemps.Count > 0 && lesPics.Count > 0)
                 {
-                    // temps pour calculer la fréquence
+                    // temps pour calculer la fréquence la dernière minute
                     while (nSeq - lesTemps[0] > 6000)
                     {
                         lesPics.RemoveAt(0);
                         lesTemps.RemoveAt(0);
                     }
-                    lesPics.Add(data[j]);
-                    lesTemps.Add(nSeq);
+                    lesPics.Add(data[j]);//ajoute à laliste des valeurs avec un pic
+                    lesTemps.Add(nSeq);// ajoute à la liste des temps de chaques pics
 
                 }
                 else
@@ -421,10 +471,10 @@ public class Hybrid8Test : MonoBehaviour
                     lesTemps.Add(nSeq);
                 }
                 compteurPic += 1;
-                compteurDistance = 0;
+                compteurDistance = 0;// compteur permet de verifier que les pics simutlané ne soit pas pris en compte
                 ajoutPic = true;
             }
-            else
+            else// si pas de pics détecté alors ajouter la valeur brute + augmenter le compteur
             {
                 CreerText(data[j] + "\n");
                 compteurDistance += 1;
@@ -449,6 +499,11 @@ public class Hybrid8Test : MonoBehaviour
                     moyen10RR += lesTemps[t] - lesTemps[t - 1];
                     // Debug.Log(lesTemps.Count - t);
                 }
+                if (p1.Popup&&!bot.finAppraisal)
+                {
+                    moyenAppr += lesTemps[t] - lesTemps[t - 1];
+                    compteurAppr += 1;
+                }
             }
             //on regarde le temps pour actuel en sec
             float tempsActuel = (nSeq / samplingRate);
@@ -459,15 +514,41 @@ public class Hybrid8Test : MonoBehaviour
             {
                 tempsActuel = 60;
             }
-            Debug.Log("pic par temps: " + (lesPics.Count * 60 / ((int)Math.Round(tempsActuel))) + "nbr de pic : " + lesPics.Count + " -- moyen des variabilité des rythme cartiaque : " + freq / lesTemps.Count + " la moyen v r-r 10s : " + moyen10RR / 10 + " --nseq actuel :  " + nSeq);
-            if ((moyen10RR / 10)>80)
+            
+            //CreerFreq((freq / lesTemps.Count) + "\n");
+            if(freq>0&&moyen10RR>0){
+               
+                Debug.Log("temps actuel " + ((int)Math.Round(tempsActuel)) + "pic par temps: " + (lesPics.Count * 60 / ((int)Math.Round(tempsActuel))) + "nbr de pic : " + lesPics.Count + " -- moyen des variabilité des rythme cartiaque : " + (6000 / (freq/ lesTemps.Count)) + " la moyen v r-r 10s : " + (6000 / (moyen10RR/10)) + " --nseq actuel :  " + nSeq);
+                
+                CreerFreq((6000 / (freq / lesTemps.Count)) + "\n");
+                
+                if (bot.enAttack&&!bot.finAppraisal)
+                {
+                    CreerAppraisal((6000 / (moyen10RR / 10)) + "\n");
+                }
+                if ((6000 / (moyen10RR / 10)) > 80)
+                {
+                    stresser = true;
+                }
+                else
+                {
+                    stresser = false;
+                }
+
+            }
+            else if (freq > 0)
             {
-                stresser = true;
+                Debug.Log("temps actuel " + ((int)Math.Round(tempsActuel)) + "pic par temps: " + (lesPics.Count * 60 / ((int)Math.Round(tempsActuel))) + "nbr de pic : " + lesPics.Count + " -- moyen des variabilité des rythme cartiaque : " + (6000 / (freq / lesTemps.Count)));
+                CreerFreq((6000 / (freq / lesTemps.Count)) + "\n");
             }
             else
             {
-                stresser = false;
+                Debug.Log("temps actuel " + ((int)Math.Round(tempsActuel)) + "pic par temps: " + (lesPics.Count * 60 / ((int)Math.Round(tempsActuel))));
             }
+
+            //calcul adptabilité frequence 10 dernières seconde
+           
+
             ajoutPic = false;
             freq = 0;
             moyen10RR = 0;

@@ -213,66 +213,27 @@ namespace Tobii.Research.Unity
                             //il regarde page 1
                             if (_latestHitObject.name == "PageE1")
                             {
-                                Enigma(0, new Vector3(-1.1f, 0.2f, -3.25f));
-                               // sliderEnigmes[0].value += Time.deltaTime;
-                               /* if (sliderEnigmes[0].value>=sliderEnigmes[0].maxValue)
-                                {
-                                    j2.transform.localPosition = new Vector3(-1.2f, 0.2f, -3.25f);
-                                    j2.transform.rotation = Quaternion.Euler(67f, 0.1f, 0f); //   Rotate(new Vector3(67f, 0.1f, 0f),20f*Time.deltaTime);
-                                    enigmesSortie[0].transform.localPosition = new Vector3(1f, 1f, 0f);
-                                    j2.fieldOfView = 35f;
-                                    enigmeActuel = 1;
-                                    monitorView = false;
-                                }*/
-                                
+                                Enigma(0, new Vector3(-1.1f, 0.2f, -3.25f));       
                             }
                             if (_latestHitObject.name == "PageE2")
                             {
-                                Enigma(1, new Vector3(-0.4f, 0.2f, -3.35f));
-                                /*sliderEnigmes[1].value += Time.deltaTime;
-
-                                    j2.transform.localPosition = new Vector3(-0.66f, 0.3f, -3.43f);
-                                j2.transform.rotation = Quaternion.Euler(67f, 0.1f, 0f); //   Rotate(new Vector3(67f, 0.1f, 0f),20f*Time.deltaTime);
-                                j2.fieldOfView = 35f;
-                                monitorView = false;*/
-
-
+                                Enigma(1, new Vector3(-0.4f, 0.2f, -3.55f));
                             }
                             if (_latestHitObject.name == "PageE3")
                             {
                                 Enigma(2, new Vector3(0.3f, 0.2f, -2.75f));
-                                /*sliderEnigmes[2].value += Time.deltaTime;
-                                j2.transform.localPosition = new Vector3(-0.24f, 0.3f, -3.15f);
-                                j2.transform.rotation = Quaternion.Euler(67f, 0.1f, 0f); //   Rotate(new Vector3(67f, 0.1f, 0f),20f*Time.deltaTime);
-                                j2.fieldOfView = 35f;
-                                monitorView = false;*/
                             }
                             if (_latestHitObject.name == "PageE4")
                             {
                                 Enigma(3, new Vector3(0.87f, 0.2f, -3.5f));
-                                /*sliderEnigmes[3].value += Time.deltaTime;
-                                j2.transform.localPosition = new Vector3(0.2f, 0.3f, -3.5f);
-                                j2.transform.rotation = Quaternion.Euler(67f, 0.1f, 0f); //   Rotate(new Vector3(67f, 0.1f, 0f),20f*Time.deltaTime);
-                                j2.fieldOfView = 35f;
-                                monitorView = false;*/
                             }
                             if (_latestHitObject.name == "PageE5")
                             {
-                                Enigma(4, new Vector3(0.2f, 0.2f, -3.73f));
-                                /*sliderEnigmes[4].value += Time.deltaTime;
-                                j2.transform.localPosition = new Vector3(-0.2f, 0.3f, -3.73f);
-                                j2.transform.rotation = Quaternion.Euler(67f, 0.1f, 0f); //   Rotate(new Vector3(67f, 0.1f, 0f),20f*Time.deltaTime);
-                                j2.fieldOfView = 35f;
-                                monitorView = false;*/
+                                Enigma(4, new Vector3(0.4f, 0.2f, -3.65f));
                             }
                             if (_latestHitObject.name == "PageE6")
                             {
                                 Enigma(5, new Vector3(-0.33f, 0.2f, -2.75f));
-                                /*sliderEnigmes[5].value += Time.deltaTime;
-                                j2.transform.localPosition = new Vector3(-0.7f, 0.3f, -2.85f);
-                                j2.transform.rotation = Quaternion.Euler(67f, 0.1f, 0f); //   Rotate(new Vector3(67f, 0.1f, 0f),20f*Time.deltaTime);
-                                j2.fieldOfView = 35f;
-                                monitorView = false;*/
                             }
                             if(_latestHitObject.name== "bureau_j2" || _latestHitObject.name == "Keyboard" || _latestHitObject.name == "Mouse" || _latestHitObject.name == "Plane_j2" || _latestHitObject.name == "Book1" || _latestHitObject.name == "Bookk2" || _latestHitObject.name == "Scroll" || _latestHitObject.name == "MurA" || _latestHitObject.name == "MurB" || _latestHitObject.name == "MurC" || _latestHitObject.name == "plateau")
                             {
@@ -298,9 +259,7 @@ namespace Tobii.Research.Unity
                                     j2.transform.localEulerAngles = new Vector3(17f, 0f, 0f);
                                     j2.fieldOfView = 70f;
                                     monitorView = false;
-
                                 }
-
                             }
                             else
                             {
@@ -312,14 +271,9 @@ namespace Tobii.Research.Unity
                         // je regarde une enigme
                         else if (enigmeActuel<7)
                         {
-                            sortieEnigme();
-                            
-                        }
-                       
-                        //Debug.Log("gazeRarilCase je touche"+_latestHitObject);
-                       
-                        
-                       
+                            sortieEnigme(); 
+                        }                  
+                        //Debug.Log("gazeRarilCase je touche"+_latestHitObject); 
                     }
                     else
                     {
@@ -342,8 +296,16 @@ namespace Tobii.Research.Unity
             if (sliderEnigmes[e].value >= sliderEnigmes[e].maxValue)
             {
                 j2.transform.localPosition = pos;
-                j2.transform.rotation = Quaternion.Euler(67f, 0.1f, 0f); //   Rotate(new Vector3(67f, 0.1f, 0f),20f*Time.deltaTime);
-                enigmesSortie[e].transform.localPosition = new Vector3(1f, 1f, 0f);
+                j2.transform.rotation = Quaternion.Euler(67f, 0.1f, 0f);
+                //   Rotate(new Vector3(67f, 0.1f, 0f),20f*Time.deltaTime);
+                if (e == 2)
+                {
+                    enigmesSortie[e].transform.localPosition = new Vector3(0.95f, 1.55f, 0f);
+                }
+                else
+                {
+                    enigmesSortie[e].transform.localPosition = new Vector3(1f, 1f, 0f);// affiche la page sortie à droite de l'éogn^me
+                }
                 j2.fieldOfView = 50f;
                 enigmeActuel = e;
                 monitorView = false;
